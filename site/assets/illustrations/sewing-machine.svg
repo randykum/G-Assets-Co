@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <!-- Sewing Machine Illustration -->
+  
+  <!-- Main body -->
+  <path d="M15 55 L15 35 C15 30 20 25 30 25 L55 25 C60 25 65 28 65 35 L65 55" fill="#E8DCC4" stroke="#1A3C34" stroke-width="2"/>
+  
+  <!-- Upper arm -->
+  <path d="M30 25 L30 15 C30 12 35 10 40 10 L50 10 C55 10 55 15 55 18 L55 25" fill="#1A3C34" stroke="#1A3C34" stroke-width="2"/>
+  
+  <!-- Needle area -->
+  <rect x="48" y="18" width="10" height="12" rx="2" fill="#C45C3B" stroke="#1A3C34" stroke-width="2"/>
+  <line x1="53" y1="30" x2="53" y2="45" stroke="#1A3C34" stroke-width="2"/>
+  
+  <!-- Base platform -->
+  <rect x="10" y="55" width="60" height="8" rx="2" fill="#1A3C34"/>
+  
+  <!-- Spool holders -->
+  <circle cx="35" cy="15" r="4" fill="#C45C3B" stroke="#1A3C34" stroke-width="1.5"/>
+  <circle cx="45" cy="15" r="4" fill="#FAF8F5" stroke="#1A3C34" stroke-width="1.5"/>
+  
+  <!-- Hand wheel -->
+  <circle cx="62" cy="40" r="8" fill="#FAF8F5" stroke="#1A3C34" stroke-width="2"/>
+  <circle cx="62" cy="40" r="3" fill="#1A3C34"/>
+  
+  <!-- Control dial -->
+  <circle cx="25" cy="42" r="5" fill="#FAF8F5" stroke="#1A3C34" stroke-width="1.5"/>
+  <line x1="25" y1="38" x2="25" y2="42" stroke="#C45C3B" stroke-width="2"/>
+  
+  <!-- Fabric guide -->
+  <rect x="35" y="45" width="20" height="10" rx="1" fill="#FAF8F5" stroke="#1A3C34" stroke-width="1"/>
+</svg>

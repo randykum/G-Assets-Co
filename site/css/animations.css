@@ -1,0 +1,576 @@
+/* ============================================
+   G'ASSET CO. - ANIMATIONS STYLESHEET
+   Subtle, professional animations
+   ============================================ */
+
+/* ============================================
+   KEYFRAME ANIMATIONS
+   ============================================ */
+
+/* Floating animation for hero background */
+@keyframes float {
+  0%, 100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(5%, 5%) rotate(1deg);
+  }
+  50% {
+    transform: translate(0%, 10%) rotate(0deg);
+  }
+  75% {
+    transform: translate(-5%, 5%) rotate(-1deg);
+  }
+}
+
+/* Bounce animation for scroll indicator */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  40% {
+    transform: translateX(-50%) translateY(-10px);
+  }
+  60% {
+    transform: translateX(-50%) translateY(-5px);
+  }
+}
+
+/* Fade in from bottom */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fade in from left */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Fade in from right */
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Simple fade in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Scale up */
+@keyframes scaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Pulse animation for CTAs */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* Subtle shine effect */
+@keyframes shine {
+  from {
+    background-position: -200% 0;
+  }
+  to {
+    background-position: 200% 0;
+  }
+}
+
+/* Rotate animation */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Number counter animation */
+@keyframes countUp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Gradient shift */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* ============================================
+   SCROLL-TRIGGERED ANIMATION CLASSES
+   Applied via JavaScript Intersection Observer
+   ============================================ */
+
+/* Initial hidden state for animated elements */
+.animate-on-scroll {
+  opacity: 0;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.animate-on-scroll.fade-in-up {
+  transform: translateY(30px);
+}
+
+.animate-on-scroll.fade-in-left {
+  transform: translateX(-30px);
+}
+
+.animate-on-scroll.fade-in-right {
+  transform: translateX(30px);
+}
+
+.animate-on-scroll.scale-up {
+  transform: scale(0.9);
+}
+
+/* Visible state - when element enters viewport */
+.animate-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0) translateX(0) scale(1);
+}
+
+/* Staggered animations for grid items */
+.stagger-animation > * {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.stagger-animation.is-visible > *:nth-child(1) { transition-delay: 0ms; }
+.stagger-animation.is-visible > *:nth-child(2) { transition-delay: 100ms; }
+.stagger-animation.is-visible > *:nth-child(3) { transition-delay: 200ms; }
+.stagger-animation.is-visible > *:nth-child(4) { transition-delay: 300ms; }
+.stagger-animation.is-visible > *:nth-child(5) { transition-delay: 400ms; }
+.stagger-animation.is-visible > *:nth-child(6) { transition-delay: 500ms; }
+.stagger-animation.is-visible > *:nth-child(7) { transition-delay: 600ms; }
+.stagger-animation.is-visible > *:nth-child(8) { transition-delay: 700ms; }
+.stagger-animation.is-visible > *:nth-child(9) { transition-delay: 800ms; }
+.stagger-animation.is-visible > *:nth-child(10) { transition-delay: 900ms; }
+.stagger-animation.is-visible > *:nth-child(11) { transition-delay: 1000ms; }
+.stagger-animation.is-visible > *:nth-child(12) { transition-delay: 1100ms; }
+
+.stagger-animation.is-visible > * {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ============================================
+   MICRO-INTERACTIONS
+   ============================================ */
+
+/* Button hover lift effect */
+.hover-lift {
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Card hover grow effect */
+.hover-grow {
+  transition: transform var(--transition-base);
+}
+
+.hover-grow:hover {
+  transform: scale(1.02);
+}
+
+/* Icon bounce on hover */
+.icon-bounce:hover svg {
+  animation: bounce 0.5s ease;
+}
+
+/* Link underline animation */
+.link-animated {
+  position: relative;
+  display: inline-block;
+}
+
+.link-animated::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-accent);
+  transition: width var(--transition-base);
+}
+
+.link-animated:hover::after {
+  width: 100%;
+}
+
+/* Icon spin on hover */
+.icon-spin:hover svg {
+  animation: rotate 0.6s ease;
+}
+
+/* Ripple effect for buttons */
+.btn-ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-ripple::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.6s ease, height 0.6s ease;
+}
+
+.btn-ripple:active::after {
+  width: 300px;
+  height: 300px;
+}
+
+/* ============================================
+   LOADING STATES
+   ============================================ */
+
+/* Skeleton loading */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--color-sand) 25%,
+    var(--color-sand-light) 50%,
+    var(--color-sand) 75%
+  );
+  background-size: 200% 100%;
+  animation: shine 1.5s infinite;
+  border-radius: var(--radius-md);
+}
+
+/* Spinner */
+.spinner {
+  width: 24px;
+  height: 24px;
+  border: 3px solid var(--color-sand);
+  border-top-color: var(--color-accent);
+  border-radius: 50%;
+  animation: rotate 0.8s linear infinite;
+}
+
+.spinner--lg {
+  width: 48px;
+  height: 48px;
+  border-width: 4px;
+}
+
+/* Loading dots */
+.loading-dots {
+  display: inline-flex;
+  gap: 4px;
+}
+
+.loading-dots span {
+  width: 8px;
+  height: 8px;
+  background-color: var(--color-accent);
+  border-radius: 50%;
+  animation: pulse 1s infinite;
+}
+
+.loading-dots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.loading-dots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+/* ============================================
+   PAGE TRANSITIONS
+   ============================================ */
+
+/* Page fade in on load */
+.page-transition {
+  animation: fadeIn 0.4s ease;
+}
+
+/* Content reveal */
+.reveal {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+
+.reveal.is-revealed {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ============================================
+   HERO ANIMATIONS
+   ============================================ */
+
+/* Hero content entrance */
+.hero__content {
+  animation: fadeInUp 0.8s ease 0.2s both;
+}
+
+.hero__badge {
+  animation: fadeIn 0.6s ease 0.4s both;
+}
+
+.hero__title {
+  animation: fadeInUp 0.8s ease 0.5s both;
+}
+
+.hero__text {
+  animation: fadeInUp 0.8s ease 0.6s both;
+}
+
+.hero__actions {
+  animation: fadeInUp 0.8s ease 0.7s both;
+}
+
+.hero__scroll {
+  animation: fadeIn 0.6s ease 1s both;
+}
+
+/* ============================================
+   PARALLAX EFFECTS (Enhanced with JS)
+   ============================================ */
+
+.parallax {
+  transform: translateY(var(--parallax-offset, 0));
+  transition: transform 0.1s linear;
+}
+
+/* ============================================
+   COUNTER ANIMATIONS
+   ============================================ */
+
+.counter {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ============================================
+   INTERSECTION OBSERVER UTILITIES
+   ============================================ */
+
+/* Delay modifiers for staggered effects */
+.delay-100 { transition-delay: 100ms !important; }
+.delay-200 { transition-delay: 200ms !important; }
+.delay-300 { transition-delay: 300ms !important; }
+.delay-400 { transition-delay: 400ms !important; }
+.delay-500 { transition-delay: 500ms !important; }
+.delay-600 { transition-delay: 600ms !important; }
+.delay-700 { transition-delay: 700ms !important; }
+.delay-800 { transition-delay: 800ms !important; }
+
+/* Duration modifiers */
+.duration-300 { transition-duration: 300ms !important; }
+.duration-500 { transition-duration: 500ms !important; }
+.duration-700 { transition-duration: 700ms !important; }
+.duration-1000 { transition-duration: 1000ms !important; }
+
+/* ============================================
+   SPECIAL EFFECTS
+   ============================================ */
+
+/* Gradient text (for special headings) */
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Animated gradient background */
+.animated-gradient {
+  background: linear-gradient(-45deg, 
+    var(--color-primary), 
+    var(--color-primary-light), 
+    var(--color-accent), 
+    var(--color-accent-light)
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+/* Glow effect */
+.glow {
+  box-shadow: 0 0 20px rgba(196, 92, 59, 0.3);
+}
+
+.glow:hover {
+  box-shadow: 0 0 30px rgba(196, 92, 59, 0.5);
+}
+
+/* ============================================
+   FORM ANIMATIONS
+   ============================================ */
+
+/* Input focus animation */
+.form-input,
+.form-textarea,
+.form-select {
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.form-input:focus,
+.form-textarea:focus,
+.form-select:focus {
+  box-shadow: 0 0 0 3px rgba(26, 60, 52, 0.1);
+}
+
+/* Label float animation */
+.form-group--float {
+  position: relative;
+}
+
+.form-group--float .form-label {
+  position: absolute;
+  left: var(--space-4);
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all var(--transition-fast);
+  pointer-events: none;
+  background-color: var(--color-cream);
+  padding: 0 var(--space-1);
+}
+
+.form-group--float .form-input:focus ~ .form-label,
+.form-group--float .form-input:not(:placeholder-shown) ~ .form-label {
+  top: 0;
+  font-size: var(--text-xs);
+  color: var(--color-primary);
+}
+
+/* Submit button loading state */
+.btn--loading {
+  position: relative;
+  color: transparent !important;
+  pointer-events: none;
+}
+
+.btn--loading::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: rotate 0.8s linear infinite;
+}
+
+/* ============================================
+   MOBILE MENU ANIMATIONS
+   ============================================ */
+
+/* Menu toggle icon animation */
+.menu-toggle__bar {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: currentColor;
+  transition: all var(--transition-fast);
+  margin: 5px 0;
+}
+
+.menu-toggle.is-active .menu-toggle__bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle.is-active .menu-toggle__bar:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.is-active .menu-toggle__bar:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* ============================================
+   ACCESSIBILITY - REDUCED MOTION
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-on-scroll,
+  .stagger-animation > *,
+  .hero__content,
+  .hero__badge,
+  .hero__title,
+  .hero__text,
+  .hero__actions,
+  .hero__scroll {
+    animation: none !important;
+    transition: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  
+  .hover-lift:hover,
+  .hover-grow:hover {
+    transform: none !important;
+  }
+  
+  .parallax {
+    transform: none !important;
+  }
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Social Impact Value Icon - Community hands together -->
+  
+  <!-- Central circle representing community -->
+  <circle cx="32" cy="32" r="12" fill="#C45C3B" opacity="0.3"/>
+  
+  <!-- Three hands reaching toward center -->
+  <!-- Hand 1 (top) -->
+  <path d="M32 8 C32 8 28 14 28 18 C28 22 32 24 32 24 C32 24 36 22 36 18 C36 14 32 8 32 8" fill="#1A3C34"/>
+  
+  <!-- Hand 2 (bottom left) -->
+  <path d="M12 44 C12 44 18 42 22 40 C26 38 26 34 24 32 C22 30 18 32 16 36 C14 40 12 44 12 44" fill="#1A3C34"/>
+  
+  <!-- Hand 3 (bottom right) -->
+  <path d="M52 44 C52 44 46 42 42 40 C38 38 38 34 40 32 C42 30 46 32 48 36 C50 40 52 44 52 44" fill="#1A3C34"/>
+  
+  <!-- People figures -->
+  <circle cx="32" cy="14" r="4" fill="#FAF8F5" stroke="#1A3C34" stroke-width="1.5"/>
+  <circle cx="16" cy="48" r="4" fill="#FAF8F5" stroke="#1A3C34" stroke-width="1.5"/>
+  <circle cx="48" cy="48" r="4" fill="#FAF8F5" stroke="#1A3C34" stroke-width="1.5"/>
+  
+  <!-- Connection lines -->
+  <line x1="32" y1="18" x2="32" y2="24" stroke="#C45C3B" stroke-width="2"/>
+  <line x1="18" y1="45" x2="24" y2="38" stroke="#C45C3B" stroke-width="2"/>
+  <line x1="46" y1="45" x2="40" y2="38" stroke="#C45C3B" stroke-width="2"/>
+  
+  <!-- Heart in center -->
+  <path d="M32 30 C30 28 27 28 27 31 C27 34 32 38 32 38 C32 38 37 34 37 31 C37 28 34 28 32 30" fill="#C45C3B"/>
+</svg>

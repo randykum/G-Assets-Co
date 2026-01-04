@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Integrity Value Icon - Shield with checkmark -->
+  
+  <!-- Shield shape -->
+  <path d="M32 6 L52 14 L52 32 C52 44 42 54 32 58 C22 54 12 44 12 32 L12 14 Z" fill="#FAF8F5" stroke="#1A3C34" stroke-width="2.5"/>
+  
+  <!-- Inner shield highlight -->
+  <path d="M32 12 L46 18 L46 32 C46 40 39 48 32 52 C25 48 18 40 18 32 L18 18 Z" fill="#E8DCC4"/>
+  
+  <!-- Checkmark -->
+  <path d="M24 32 L30 40 L42 24" stroke="#1A3C34" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Accent lines -->
+  <path d="M32 12 L32 18" stroke="#C45C3B" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="32" cy="22" r="2" fill="#C45C3B"/>
+</svg>

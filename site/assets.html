@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse G'Asset Co.'s catalog of business equipment available for hire-purchase. Ice cream machines, sewing machines, refrigerators, ovens, and more.">
+  <meta name="keywords" content="hire purchase assets, Cameroon equipment, sewing machine, ice cream machine, refrigerator, oven, business equipment">
+  <meta name="author" content="G'Asset Co.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  
+  <title data-i18n-page-title="nav.assets">Our Assets | G'Asset Co.</title>
+</head>
+<body>
+  <!-- Skip to content link for accessibility -->
+  <a href="#main-content" class="skip-link sr-only" data-i18n="accessibility.skipToContent">Skip to main content</a>
+
+  <!-- ============================================
+       HEADER / NAVIGATION
+       ============================================ -->
+  <header class="header">
+    <div class="container header__inner">
+      <!-- Logo -->
+      <a href="index.html" class="header__logo" aria-label="G'Asset Co. - Home">
+        <img src="assets/icons/logo.svg" alt="G'Asset Co. Logo" width="40" height="40">
+        <span class="header__logo-text">G'Asset Co.</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link" data-i18n="nav.home">Home</a></li>
+          <li><a href="about.html" class="nav__link" data-i18n="nav.about">About Us</a></li>
+          <li><a href="assets.html" class="nav__link nav__link--active" data-i18n="nav.assets">Our Assets</a></li>
+          <li><a href="how-it-works.html" class="nav__link" data-i18n="nav.howItWorks">How It Works</a></li>
+          <li><a href="contact.html" class="nav__link" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header__actions">
+        <!-- Language Toggle -->
+        <div class="lang-toggle" role="group" aria-label="Language selection">
+          <button class="lang-toggle__option lang-toggle__option--active" data-lang="en" aria-pressed="true">EN</button>
+          <button class="lang-toggle__option" data-lang="fr" aria-pressed="false">FR</button>
+        </div>
+
+        <!-- CTA Button (Desktop) -->
+        <a href="contact.html" class="btn btn--primary hide-mobile" data-i18n="header.cta">Get Started</a>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+          <img src="assets/icons/menu.svg" alt="" width="24" height="24">
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation -->
+  <div class="nav-overlay" aria-hidden="true"></div>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+    <div class="mobile-nav__header">
+      <a href="index.html" class="header__logo">
+        <img src="assets/icons/logo.svg" alt="G'Asset Co." width="32" height="32">
+        <span class="header__logo-text">G'Asset Co.</span>
+      </a>
+      <button class="mobile-nav__close" aria-label="Close menu">
+        <img src="assets/icons/close.svg" alt="" width="24" height="24">
+      </button>
+    </div>
+    <ul class="mobile-nav__list">
+      <li><a href="index.html" class="mobile-nav__link" data-i18n="nav.home">Home</a></li>
+      <li><a href="about.html" class="mobile-nav__link" data-i18n="nav.about">About Us</a></li>
+      <li><a href="assets.html" class="mobile-nav__link mobile-nav__link--active" data-i18n="nav.assets">Our Assets</a></li>
+      <li><a href="how-it-works.html" class="mobile-nav__link" data-i18n="nav.howItWorks">How It Works</a></li>
+      <li><a href="contact.html" class="mobile-nav__link" data-i18n="nav.contact">Contact</a></li>
+    </ul>
+    <div class="mobile-nav__footer">
+      <a href="contact.html" class="btn btn--primary w-full" data-i18n="header.cta">Get Started</a>
+    </div>
+  </nav>
+
+  <!-- ============================================
+       MAIN CONTENT
+       ============================================ -->
+  <main id="main-content">
+    
+    <!-- ============================================
+         PAGE HEADER
+         ============================================ -->
+    <section class="section section--dark" style="padding-top: 120px;">
+      <div class="container">
+        <div class="section-header animate-on-scroll fade-in-up">
+          <span class="section-header__subtitle" data-i18n="assets.subtitle">Our Asset Catalog</span>
+          <h1 class="section-header__title" data-i18n="assets.title">Quality Equipment for Your Success</h1>
+          <p class="section-header__text" data-i18n="assets.text">Browse our selection of carefully curated assets. Each one is designed to help you start or grow your business, or improve your daily life.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         ASSETS GRID
+         ============================================ -->
+    <section class="section">
+      <div class="container">
+        <div class="grid gap-6 cards-grid stagger-animation" style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));">
+          
+          <!-- Ice Cream Machine -->
+          <article class="card">
+            <div class="card__image">
+              <img src="assets/illustrations/ice-cream-machine.svg" alt="Ice Cream Machine" width="120" height="120">
+            </div>
+            <div class="card__content">
+              <h2 class="card__title" data-i18n="assets.catalog.iceCreamMachine.name">Ice Cream Machine</h2>
+              <p class="card__text" data-i18n="assets.catalog.iceCreamMachine.description">Professional soft-serve machine perfect for starting your frozen treats business. High capacity and easy to operate.</p>
+              <p style="font-size: var(--text-xs); color: var(--color-primary); margin-bottom: var(--space-3);">
+                <strong>Ideal for:</strong> <span data-i18n="assets.catalog.iceCreamMachine.ideal">Ice cream vendors, cafés, event caterers</span>
+              </p>
+              <p class="card__price"><span data-i18n="assets.priceFrom">From</span> 15,000 FCFA<span data-i18n="assets.perWeek">/week</span></p>
+              <a href="contact.html?asset=ice-cream-machine" class="btn btn--primary w-full mt-4" data-i18n="header.cta">Get Started</a>
+            </div>
+          </article>
+
+          <!-- Popcorn Machine -->
+          <article class="card">
+            <div class="card__image">
+              <img src="assets/illustrations/popcorn-machine.svg" alt="Popcorn Machine" width="120" height="120">
+            </div>
+            <div class="card__content">
+              <h2 class="card__title" data-i18n="assets.catalog.popcornMachine.name">Popcorn Machine</h2>
+              <p class="card__text" data-i18n="assets.catalog.popcornMachine.description">Commercial-grade popcorn maker for cinemas, events, and street vending. Eye-catching design attracts customers.</p>
+              <p style="font-size: var(--text-xs); color: var(--color-primary); margin-bottom: var(--space-3);">
+                <strong>Ideal for:</strong> <span data-i18n="assets.catalog.popcornMachine.ideal">Cinema operators, event planners, street vendors</span>
+              </p>
+              <p class="card__price"><span data-i18n="assets.priceFrom">From</span> 10,000 FCFA<span data-i18n="assets.perWeek">/week</span></p>
+              <a href="contact.html?asset=popcorn-machine" class="btn btn--primary w-full mt-4" data-i18n="header.cta">Get Started</a>
+            </div>
+          </article>
+
+          <!-- Sewing Machine -->
+          <article class="card">
+            <div class="card__image">
+              <img src="assets/illustrations/sewing-machine.svg" alt="Sewing Machine" width="120" height="120">
+            </div>
+            <div class="card__content">
+              <h2 class="card__title" data-i18n="assets.catalog.sewingMachine.name">Sewing Machine</h2>
+              <p class="card__text" data-i18n="assets.catalog.sewingMachine.description">Industrial-quality sewing machine for tailoring, alterations, and fashion design. Durable and versatile.</p>
+              <p style="font-size: var(--text-xs); color: var(--color-primary); margin-bottom: var(--space-3);">
+                <strong>Ideal for:</strong> <span data-i18n="assets.catalog.sewingMachine.ideal">Tailors, fashion designers, seamstresses</span>
+              </p>
+              <p class="card__price"><span data-i18n="assets.priceFrom">From</span> 8,000 FCFA<span data-i18n="assets.perWeek">/week</span></p>
+              <a href="contact.html?asset=sewing-machine" class="btn btn--primary w-full mt-4" data-i18n="header.cta">Get Started</a>
+            </div>
+          </article>
+
+          <!-- Oven -->
+          <article class="card">
+            <div class="card__image">
+              <img src="assets/illustrations/oven.svg" alt="Oven" width="120" height="120">
+            </div>
+            <div class="card__content">
+              <h2 class="card__title" data-i18n="assets.catalog.oven.name">Oven</h2>
+              <p class="card__text" data-i18n="assets.catalog.oven.description">Professional baking oven for pastries, bread, and catering. Multiple racks for high-volume production.</p>
+              <p style="font-size: var(--text-xs); color: var(--color-primary); margin-bottom: var(--space-3);">
+                <strong>Ideal for:</strong> <span data-i18n="assets.catalog.oven.ideal">Bakers, restaurants, catering businesses</span>
+              </p>
+              <p class="card__price"><span data-i18n="assets.priceFrom">From</span> 12,000 FCFA<span data-i18n="assets.perWeek">/week</span></p>
+              <a href="contact.html?asset=oven" class="btn btn--primary w-full mt-4" data-i18n="header.cta">Get Started</a>
+            </div>
+          </article>
+
+          <!-- Gas Cooker -->
+          <article class="card">
+            <div class="card__image">
+              <img src="assets/illustrations/gas-cooker.svg" alt="Gas Cooker" width="120" height="120">
+            </div>
+            <div class="card__content">
+              <h2 class="card__title" data-i18n="assets.catalog.gasCooker.name">Gas Cooker</h2>
+              <p class="card__text" data-i18n="assets.catalog.gasCooker.description">Heavy-duty gas cooker for restaurants and catering. Multiple burners for efficient cooking.</p>
+              <p style="font-size: var(--text-xs); color: var(--color-primary); margin-bottom: var(--space-3);">
+                <strong>Ideal for:</strong> <span data-i18n="assets.catalog.gasCooker.ideal">Restaurants, canteens, food vendors</span>
+              </p>
+              <p class="card__price"><span data-i18n="assets.priceFrom">From</span> 9,000 FCFA<span data-i18n="assets.perWeek">/week</span></p>
+              <a href="contact.html?asset=gas-cooker" class="btn btn--primary w-full mt-4" data-i18n="header.cta">Get Started</a>
+            </div>
+          </article>
+
+          <!-- Refrigerator -->
+          <article class="card">
+            <div class="card__image">
+              <img src="assets/illustrations/refrigerator.svg" alt="Refrigerator" width="120" height="120">
+            </div>
+            <div class="card__content">
+              <h2 class="card__title" data-i18n="assets.catalog.refrigerator.name">Refrigerator</h2>
+              <p class="card__text" data-i18n="assets.catalog.refrigerator.description">Large capacity refrigerator for cold storage. Perfect for homes or small businesses.</p>
+              <p style="font-size: var(--text-xs); color: var(--color-primary); margin-bottom: var(--space-3);">
+                <strong>Ideal for:</strong> <span data-i18n="assets.catalog.refrigerator.ideal">Families, small shops, restaurants</span>
+              </p>
+              <p class="card__price"><span data-i18n="assets.priceFrom">From</span> 10,000 FCFA<span data-i18n="assets.perWeek">/week</span></p>
+              <a href="contact.html?asset=refrigerator" class="btn btn--primary w-full mt-4" data-i18n="header.cta">Get Started</a>
+            </div>
+          </article>
+
+          <!-- Display Freezer -->
+          <article class="card">
+            <div class="card__image">
+              <img src="assets/illustrations/display-freezer.svg" alt="Display Freezer" width="120" height="120">
+            </div>
+            <div class="card__content">
+              <h2 class="card__title" data-i18n="assets.catalog.displayFreezer.name">Display Freezer</h2>
+              <p class="card__text" data-i18n="assets.catalog.displayFreezer.description">Glass-front display freezer for frozen goods retail. Energy efficient with excellent visibility.</p>
+              <p style="font-size: var(--text-xs); color: var(--color-primary); margin-bottom: var(--space-3);">
+                <strong>Ideal for:</strong> <span data-i18n="assets.catalog.displayFreezer.ideal">Grocery stores, ice cream shops, supermarkets</span>
+              </p>
+              <p class="card__price"><span data-i18n="assets.priceFrom">From</span> 14,000 FCFA<span data-i18n="assets.perWeek">/week</span></p>
+              <a href="contact.html?asset=display-freezer" class="btn btn--primary w-full mt-4" data-i18n="header.cta">Get Started</a>
+            </div>
+          </article>
+
+          <!-- Commercial Blender -->
+          <article class="card">
+            <div class="card__image">
+              <img src="assets/illustrations/blender.svg" alt="Commercial Blender" width="120" height="120">
+            </div>
+            <div class="card__content">
+              <h2 class="card__title" data-i18n="assets.catalog.blender.name">Commercial Blender</h2>
+              <p class="card__text" data-i18n="assets.catalog.blender.description">High-powered commercial blender for smoothies, juices, and food prep. Heavy-duty motor.</p>
+              <p style="font-size: var(--text-xs); color: var(--color-primary); margin-bottom: var(--space-3);">
+                <strong>Ideal for:</strong> <span data-i18n="assets.catalog.blender.ideal">Juice bars, restaurants, cafés</span>
+              </p>
+              <p class="card__price"><span data-i18n="assets.priceFrom">From</span> 5,000 FCFA<span data-i18n="assets.perWeek">/week</span></p>
+              <a href="contact.html?asset=blender" class="btn btn--primary w-full mt-4" data-i18n="header.cta">Get Started</a>
+            </div>
+          </article>
+
+          <!-- Juice Extractor -->
+          <article class="card">
+            <div class="card__image">
+              <img src="assets/illustrations/juice-extractor.svg" alt="Juice Extractor" width="120" height="120">
+            </div>
+            <div class="card__content">
+              <h2 class="card__title" data-i18n="assets.catalog.juiceExtractor.name">Juice Extractor</h2>
+              <p class="card__text" data-i18n="assets.catalog.juiceExtractor.description">Professional juice extractor for fresh fruit and vegetable juices. High yield extraction.</p>
+              <p style="font-size: var(--text-xs); color: var(--color-primary); margin-bottom: var(--space-3);">
+                <strong>Ideal for:</strong> <span data-i18n="assets.catalog.juiceExtractor.ideal">Juice bars, health food vendors, restaurants</span>
+              </p>
+              <p class="card__price"><span data-i18n="assets.priceFrom">From</span> 7,000 FCFA<span data-i18n="assets.perWeek">/week</span></p>
+              <a href="contact.html?asset=juice-extractor" class="btn btn--primary w-full mt-4" data-i18n="header.cta">Get Started</a>
+            </div>
+          </article>
+
+          <!-- Meat Grinder -->
+          <article class="card">
+            <div class="card__image">
+              <img src="assets/illustrations/meat-grinder.svg" alt="Meat Grinder" width="120" height="120">
+            </div>
+            <div class="card__content">
+              <h2 class="card__title" data-i18n="assets.catalog.meatGrinder.name">Meat Grinder</h2>
+              <p class="card__text" data-i18n="assets.catalog.meatGrinder.description">Commercial meat grinder for butchers and food processors. Stainless steel construction.</p>
+              <p style="font-size: var(--text-xs); color: var(--color-primary); margin-bottom: var(--space-3);">
+                <strong>Ideal for:</strong> <span data-i18n="assets.catalog.meatGrinder.ideal">Butchers, restaurants, food processors</span>
+              </p>
+              <p class="card__price"><span data-i18n="assets.priceFrom">From</span> 8,000 FCFA<span data-i18n="assets.perWeek">/week</span></p>
+              <a href="contact.html?asset=meat-grinder" class="btn btn--primary w-full mt-4" data-i18n="header.cta">Get Started</a>
+            </div>
+          </article>
+
+          <!-- Shawarma Grill -->
+          <article class="card">
+            <div class="card__image">
+              <img src="assets/illustrations/shawarma-grill.svg" alt="Shawarma Grill" width="120" height="120">
+            </div>
+            <div class="card__content">
+              <h2 class="card__title" data-i18n="assets.catalog.shawarmaGrill.name">Shawarma Grill</h2>
+              <p class="card__text" data-i18n="assets.catalog.shawarmaGrill.description">Vertical rotisserie grill for shawarma and grilled meats. Professional restaurant quality.</p>
+              <p style="font-size: var(--text-xs); color: var(--color-primary); margin-bottom: var(--space-3);">
+                <strong>Ideal for:</strong> <span data-i18n="assets.catalog.shawarmaGrill.ideal">Fast food restaurants, street food vendors</span>
+              </p>
+              <p class="card__price"><span data-i18n="assets.priceFrom">From</span> 18,000 FCFA<span data-i18n="assets.perWeek">/week</span></p>
+              <a href="contact.html?asset=shawarma-grill" class="btn btn--primary w-full mt-4" data-i18n="header.cta">Get Started</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         WHY HIRE-PURCHASE SECTION
+         ============================================ -->
+    <section class="section section--sand">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-header__subtitle">Benefits</span>
+          <h2 class="section-header__title" data-i18n="howItWorks.benefits.title">Why Choose Hire-Purchase?</h2>
+        </div>
+
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div class="flex gap-4 items-start animate-on-scroll fade-in-up">
+            <div style="flex-shrink: 0; width: 48px; height: 48px; background: var(--color-primary); border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center;">
+              <img src="assets/icons/check.svg" alt="" width="24" height="24" style="filter: brightness(0) invert(1);">
+            </div>
+            <div>
+              <h3 style="font-size: var(--text-lg); margin-bottom: var(--space-2);">No Large Upfront Payment</h3>
+              <p class="text-muted" data-i18n="howItWorks.benefits.benefit1">No large upfront payment required</p>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start animate-on-scroll fade-in-up delay-100">
+            <div style="flex-shrink: 0; width: 48px; height: 48px; background: var(--color-primary); border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center;">
+              <img src="assets/icons/check.svg" alt="" width="24" height="24" style="filter: brightness(0) invert(1);">
+            </div>
+            <div>
+              <h3 style="font-size: var(--text-lg); margin-bottom: var(--space-2);">Start Earning Immediately</h3>
+              <p class="text-muted" data-i18n="howItWorks.benefits.benefit2">Start earning with your asset immediately</p>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start animate-on-scroll fade-in-up delay-200">
+            <div style="flex-shrink: 0; width: 48px; height: 48px; background: var(--color-primary); border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center;">
+              <img src="assets/icons/check.svg" alt="" width="24" height="24" style="filter: brightness(0) invert(1);">
+            </div>
+            <div>
+              <h3 style="font-size: var(--text-lg); margin-bottom: var(--space-2);">Flexible Payments</h3>
+              <p class="text-muted" data-i18n="howItWorks.benefits.benefit3">Flexible payment schedules</p>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start animate-on-scroll fade-in-up delay-300">
+            <div style="flex-shrink: 0; width: 48px; height: 48px; background: var(--color-primary); border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center;">
+              <img src="assets/icons/check.svg" alt="" width="24" height="24" style="filter: brightness(0) invert(1);">
+            </div>
+            <div>
+              <h3 style="font-size: var(--text-lg); margin-bottom: var(--space-2);">Build Credit History</h3>
+              <p class="text-muted" data-i18n="howItWorks.benefits.benefit4">Build your credit history</p>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start animate-on-scroll fade-in-up delay-400">
+            <div style="flex-shrink: 0; width: 48px; height: 48px; background: var(--color-primary); border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center;">
+              <img src="assets/icons/check.svg" alt="" width="24" height="24" style="filter: brightness(0) invert(1);">
+            </div>
+            <div>
+              <h3 style="font-size: var(--text-lg); margin-bottom: var(--space-2);">Full Ownership</h3>
+              <p class="text-muted" data-i18n="howItWorks.benefits.benefit5">Full ownership upon completion</p>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start animate-on-scroll fade-in-up delay-500">
+            <div style="flex-shrink: 0; width: 48px; height: 48px; background: var(--color-primary); border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center;">
+              <img src="assets/icons/check.svg" alt="" width="24" height="24" style="filter: brightness(0) invert(1);">
+            </div>
+            <div>
+              <h3 style="font-size: var(--text-lg); margin-bottom: var(--space-2);">Quality Assured</h3>
+              <p class="text-muted" data-i18n="howItWorks.benefits.benefit6">Quality-assured equipment</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         CTA SECTION
+         ============================================ -->
+    <section class="section section--accent">
+      <div class="container">
+        <div class="cta-section animate-on-scroll fade-in-up">
+          <div class="cta-section__content">
+            <h2>Can't Find What You're Looking For?</h2>
+            <p>We're always expanding our catalog. Contact us to discuss your specific equipment needs and we'll see how we can help.</p>
+          </div>
+          <div class="cta-section__actions flex gap-4 flex-wrap">
+            <a href="contact.html" class="btn btn--primary btn--lg" data-i18n="cta.button">Contact Us Today</a>
+            <a href="#" class="btn btn--whatsapp btn--lg" data-whatsapp="237600000000" data-i18n="cta.whatsapp">
+              <img src="assets/icons/whatsapp.svg" alt="" width="20" height="20">
+              Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <!-- Brand Column -->
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo">
+            <img src="assets/icons/logo-light.svg" alt="G'Asset Co." width="40" height="40">
+            <span class="footer__logo-text">G'Asset Co.</span>
+          </a>
+          <p class="footer__text" data-i18n="footer.description">Empowering entrepreneurs and families in Cameroon with accessible hire-purchase solutions. Build your future, one asset at a time.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h3 class="footer__title" data-i18n="footer.quickLinks">Quick Links</h3>
+          <nav class="footer__links">
+            <a href="index.html" class="footer__link" data-i18n="nav.home">Home</a>
+            <a href="about.html" class="footer__link" data-i18n="nav.about">About Us</a>
+            <a href="assets.html" class="footer__link" data-i18n="nav.assets">Our Assets</a>
+            <a href="how-it-works.html" class="footer__link" data-i18n="nav.howItWorks">How It Works</a>
+            <a href="contact.html" class="footer__link" data-i18n="nav.contact">Contact</a>
+          </nav>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h3 class="footer__title" data-i18n="footer.contact">Contact Us</h3>
+          <div class="footer__contact">
+            <p class="footer__contact-item">
+              <img src="assets/icons/location.svg" alt="" width="18" height="18">
+              <span data-i18n="contact.info.address">Douala, Cameroon</span>
+            </p>
+            <p class="footer__contact-item">
+              <img src="assets/icons/phone.svg" alt="" width="18" height="18">
+              <span data-i18n="contact.info.phone">+237 6XX XXX XXX</span>
+            </p>
+            <p class="footer__contact-item">
+              <img src="assets/icons/email.svg" alt="" width="18" height="18">
+              <span data-i18n="contact.info.email">info@gassetco.com</span>
+            </p>
+            <p class="footer__contact-item">
+              <img src="assets/icons/clock.svg" alt="" width="18" height="18">
+              <span data-i18n="contact.info.hours">Mon - Sat: 8AM - 6PM</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Social Links -->
+        <div>
+          <h3 class="footer__title" data-i18n="footer.followUs">Follow Us</h3>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="WhatsApp" data-whatsapp="237600000000">
+              <img src="assets/icons/whatsapp.svg" alt="" width="20" height="20">
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Facebook">
+              <img src="assets/icons/facebook.svg" alt="" width="20" height="20">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright" data-i18n="footer.copyright">© 2024 G'Asset Co. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================
+       SCRIPTS
+       ============================================ -->
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>

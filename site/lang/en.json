@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "lang": "en",
+    "langName": "English",
+    "dir": "ltr"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "assets": "Our Assets",
+    "howItWorks": "How It Works",
+    "contact": "Contact"
+  },
+  "header": {
+    "cta": "Get Started"
+  },
+  "hero": {
+    "badge": "Micro-Asset Financing in Cameroon",
+    "title": "Own Your Future, <span>One Asset at a Time</span>",
+    "text": "G'Asset Co. empowers entrepreneurs and families in Douala with affordable hire-purchase solutions. Start your business or improve your home today — no large upfront payment required.",
+    "cta": "Explore Assets",
+    "ctaSecondary": "Learn How It Works",
+    "scroll": "Scroll to discover"
+  },
+  "about": {
+    "subtitle": "About Us",
+    "title": "Empowering Dreams Through Accessible Financing",
+    "text1": "G'Asset Co. was founded with a simple mission: to make essential assets accessible to everyone in Cameroon, regardless of their financial starting point.",
+    "text2": "We believe that owning the right equipment — whether it's a sewing machine to start a tailoring business, or a refrigerator for your family — should not be a distant dream. Our hire-purchase model breaks down financial barriers, allowing you to pay in manageable installments while immediately benefiting from the asset.",
+    "cta": "Read Our Full Story",
+    "mission": {
+      "subtitle": "Our Mission",
+      "title": "Building Prosperity, One Asset at a Time",
+      "text": "We exist to bridge the gap between aspiration and achievement. By providing flexible financing solutions, we help individuals and small businesses acquire the tools they need to thrive."
+    },
+    "vision": {
+      "subtitle": "Our Vision",
+      "title": "A Cameroon Where Everyone Can Build Their Future",
+      "text": "We envision a society where financial constraints no longer hold back talented entrepreneurs and hardworking families from achieving their goals."
+    }
+  },
+  "values": {
+    "subtitle": "Our Core Values",
+    "title": "What Guides Everything We Do",
+    "transparency": {
+      "title": "Transparency",
+      "text": "Clear pricing, no hidden fees. You always know exactly what you're paying for."
+    },
+    "socialImpact": {
+      "title": "Social Impact",
+      "text": "Every asset we finance creates opportunity — for individuals, families, and communities."
+    },
+    "empowerment": {
+      "title": "Financial Empowerment",
+      "text": "We give you the tools to build wealth and independence, one step at a time."
+    },
+    "integrity": {
+      "title": "Integrity",
+      "text": "We keep our promises and treat every customer with fairness and respect."
+    },
+    "innovation": {
+      "title": "Innovation",
+      "text": "We continuously improve our services to better serve your needs."
+    }
+  },
+  "assets": {
+    "subtitle": "Our Asset Catalog",
+    "title": "Quality Equipment for Your Success",
+    "text": "Browse our selection of carefully curated assets. Each one is designed to help you start or grow your business, or improve your daily life.",
+    "cta": "View All Assets",
+    "viewDetails": "View Details",
+    "priceFrom": "From",
+    "perWeek": "/week",
+    "perMonth": "/month",
+    "catalog": {
+      "iceCreamMachine": {
+        "name": "Ice Cream Machine",
+        "description": "Professional soft-serve machine perfect for starting your frozen treats business. High capacity and easy to operate.",
+        "ideal": "Ice cream vendors, cafés, event caterers"
+      },
+      "popcornMachine": {
+        "name": "Popcorn Machine",
+        "description": "Commercial-grade popcorn maker for cinemas, events, and street vending. Eye-catching design attracts customers.",
+        "ideal": "Cinema operators, event planners, street vendors"
+      },
+      "sewingMachine": {
+        "name": "Sewing Machine",
+        "description": "Industrial-quality sewing machine for tailoring, alterations, and fashion design. Durable and versatile.",
+        "ideal": "Tailors, fashion designers, seamstresses"
+      },
+      "oven": {
+        "name": "Oven",
+        "description": "Professional baking oven for pastries, bread, and catering. Multiple racks for high-volume production.",
+        "ideal": "Bakers, restaurants, catering businesses"
+      },
+      "gasCooker": {
+        "name": "Gas Cooker",
+        "description": "Heavy-duty gas cooker for restaurants and catering. Multiple burners for efficient cooking.",
+        "ideal": "Restaurants, canteens, food vendors"
+      },
+      "refrigerator": {
+        "name": "Refrigerator",
+        "description": "Large capacity refrigerator for cold storage. Perfect for homes or small businesses.",
+        "ideal": "Families, small shops, restaurants"
+      },
+      "displayFreezer": {
+        "name": "Display Freezer",
+        "description": "Glass-front display freezer for frozen goods retail. Energy efficient with excellent visibility.",
+        "ideal": "Grocery stores, ice cream shops, supermarkets"
+      },
+      "blender": {
+        "name": "Commercial Blender",
+        "description": "High-powered commercial blender for smoothies, juices, and food prep. Heavy-duty motor.",
+        "ideal": "Juice bars, restaurants, cafés"
+      },
+      "juiceExtractor": {
+        "name": "Juice Extractor",
+        "description": "Professional juice extractor for fresh fruit and vegetable juices. High yield extraction.",
+        "ideal": "Juice bars, health food vendors, restaurants"
+      },
+      "meatGrinder": {
+        "name": "Meat Grinder",
+        "description": "Commercial meat grinder for butchers and food processors. Stainless steel construction.",
+        "ideal": "Butchers, restaurants, food processors"
+      },
+      "shawarmaGrill": {
+        "name": "Shawarma Grill",
+        "description": "Vertical rotisserie grill for shawarma and grilled meats. Professional restaurant quality.",
+        "ideal": "Fast food restaurants, street food vendors"
+      }
+    }
+  },
+  "howItWorks": {
+    "subtitle": "How It Works",
+    "title": "Four Simple Steps to Ownership",
+    "text": "Our process is designed to be straightforward and transparent. No complicated paperwork, no hidden surprises.",
+    "cta": "Start Your Application",
+    "step1": {
+      "title": "Browse & Choose",
+      "text": "Explore our catalog and select the asset that matches your needs and goals."
+    },
+    "step2": {
+      "title": "Apply & Get Approved",
+      "text": "Fill out a simple application. We'll review it quickly and get back to you within 24 hours."
+    },
+    "step3": {
+      "title": "Receive Your Asset",
+      "text": "Once approved, we deliver your asset directly to you. Start using it immediately."
+    },
+    "step4": {
+      "title": "Pay & Own",
+      "text": "Make weekly or monthly payments that fit your budget. Once complete, the asset is 100% yours."
+    },
+    "benefits": {
+      "title": "Why Choose Hire-Purchase?",
+      "benefit1": "No large upfront payment required",
+      "benefit2": "Start earning with your asset immediately",
+      "benefit3": "Flexible payment schedules",
+      "benefit4": "Build your credit history",
+      "benefit5": "Full ownership upon completion",
+      "benefit6": "Quality-assured equipment"
+    }
+  },
+  "testimonials": {
+    "subtitle": "Success Stories",
+    "title": "Hear From Our Happy Customers",
+    "text": "Real people, real stories. See how G'Asset Co. has helped entrepreneurs and families achieve their dreams.",
+    "testimonial1": {
+      "quote": "Thanks to G'Asset Co., I started my tailoring business with just a small weekly payment. Now I have my own shop and employ two apprentices!",
+      "name": "Marie Njoya",
+      "role": "Tailor, Douala"
+    },
+    "testimonial2": {
+      "quote": "The ice cream machine changed everything for me. I couldn't afford it outright, but the hire-purchase plan made it possible. Now I sell 200+ cones daily!",
+      "name": "Emmanuel Fotso",
+      "role": "Ice Cream Vendor, Akwa"
+    },
+    "testimonial3": {
+      "quote": "Professional, transparent, and truly helpful. They worked with me to find a payment plan that fit my family's budget. I recommend them to everyone.",
+      "name": "Aïssatou Mbarga",
+      "role": "Restaurant Owner, Bonanjo"
+    }
+  },
+  "cta": {
+    "title": "Ready to Start Your Journey?",
+    "text": "Take the first step towards owning the asset that will transform your future. Our team is here to help you every step of the way.",
+    "button": "Contact Us Today",
+    "whatsapp": "Chat on WhatsApp"
+  },
+  "contact": {
+    "subtitle": "Get in Touch",
+    "title": "We're Here to Help",
+    "text": "Have questions? Want to apply? Reach out to us through any of these channels. We typically respond within a few hours.",
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Your Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "your.email@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+237 6XX XXX XXX",
+      "subject": "Subject",
+      "subjectPlaceholder": "What can we help you with?",
+      "message": "Your Message",
+      "messagePlaceholder": "Tell us more about your needs...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! We'll get back to you soon.",
+      "error": "Something went wrong. Please try again or contact us directly."
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "Douala, Cameroon",
+      "addressDetail": "Akwa, Near Total Gas Station",
+      "phone": "+237 6XX XXX XXX",
+      "email": "info@gassetco.com",
+      "hours": "Monday - Saturday: 8:00 AM - 6:00 PM"
+    },
+    "whatsapp": {
+      "title": "Quick Chat",
+      "text": "Prefer WhatsApp? Send us a message and we'll respond quickly.",
+      "button": "Open WhatsApp"
+    }
+  },
+  "footer": {
+    "description": "Empowering entrepreneurs and families in Cameroon with accessible hire-purchase solutions. Build your future, one asset at a time.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact Us",
+    "followUs": "Follow Us",
+    "copyright": "© 2024 G'Asset Co. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "viewAll": "View All",
+    "close": "Close",
+    "menu": "Menu",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "changeLanguage": "Change language",
+    "scrollDown": "Scroll down for more"
+  }
+}

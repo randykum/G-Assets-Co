@@ -1,0 +1,592 @@
+/* ============================================
+   G'ASSET CO. - RESPONSIVE STYLESHEET
+   Mobile-first approach with breakpoints
+   ============================================ */
+
+/* ============================================
+   BREAKPOINT SYSTEM
+   ------------------------------------------
+   Mobile:  0px - 599px   (default styles)
+   Tablet:  600px - 767px
+   Laptop:  768px - 1023px
+   Desktop: 1024px - 1279px
+   Large:   1280px+
+   ============================================ */
+
+/* ============================================
+   TABLET BREAKPOINT (600px+)
+   ============================================ */
+@media screen and (min-width: 600px) {
+  /* Typography scaling */
+  :root {
+    --text-4xl: 2.5rem;    /* 40px */
+    --text-5xl: 3.5rem;    /* 56px */
+  }
+  
+  /* Container */
+  .container {
+    --container-padding: var(--space-6);
+  }
+  
+  /* Section spacing */
+  .section {
+    padding-top: var(--space-16);
+    padding-bottom: var(--space-16);
+  }
+  
+  /* Grid layouts */
+  .grid-sm-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .grid-sm-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  /* Cards - 2 columns */
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* Hero adjustments */
+  .hero {
+    min-height: 100vh;
+  }
+  
+  .hero__title {
+    font-size: var(--text-5xl);
+  }
+  
+  .hero__content {
+    max-width: 500px;
+  }
+  
+  /* Footer grid */
+  .footer__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* Value cards - 2 columns */
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* Process steps - horizontal connector lines */
+  .process-steps {
+    position: relative;
+  }
+  
+  .process-step {
+    position: relative;
+    padding-bottom: var(--space-6);
+  }
+  
+  .process-step:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    left: 24px;
+    top: 48px;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--color-sand);
+  }
+  
+  /* Testimonials grid */
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* Form layout - 2 columns */
+  .form-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+  
+  .form-row .form-group {
+    margin-bottom: 0;
+  }
+}
+
+/* ============================================
+   LAPTOP BREAKPOINT (768px+)
+   ============================================ */
+@media screen and (min-width: 768px) {
+  /* Desktop navigation visible */
+  .nav {
+    display: block;
+  }
+  
+  .menu-toggle {
+    display: none;
+  }
+  
+  /* Header adjustments */
+  .header__inner {
+    height: 72px;
+  }
+  
+  /* Hero layout - can add side content */
+  .hero__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-8);
+    align-items: center;
+  }
+  
+  .hero__content {
+    max-width: none;
+  }
+  
+  .hero__visual {
+    display: block;
+  }
+  
+  /* Cards - 3 columns */
+  .cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  /* Values - 3 columns */
+  .values-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  /* Process steps - horizontal layout */
+  .process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-4);
+  }
+  
+  .process-step {
+    text-align: center;
+    padding-bottom: 0;
+  }
+  
+  .process-step:not(:last-child)::after {
+    display: none;
+  }
+  
+  .process-step__number {
+    margin: 0 auto var(--space-4);
+  }
+  
+  /* Horizontal connector for process */
+  .process-grid::before {
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: 10%;
+    right: 10%;
+    height: 2px;
+    background-color: var(--color-sand);
+    z-index: 0;
+  }
+  
+  .process-grid {
+    position: relative;
+  }
+  
+  .process-step__number {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* About section - side by side */
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-10);
+    align-items: center;
+  }
+  
+  .about-grid--reverse {
+    direction: rtl;
+  }
+  
+  .about-grid--reverse > * {
+    direction: ltr;
+  }
+  
+  /* Footer - 4 columns */
+  .footer__grid {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+  }
+  
+  /* Contact page layout */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-10);
+  }
+  
+  /* Stats section */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-6);
+  }
+  
+  .stat {
+    text-align: center;
+    padding: var(--space-6);
+  }
+}
+
+/* ============================================
+   DESKTOP BREAKPOINT (1024px+)
+   ============================================ */
+@media screen and (min-width: 1024px) {
+  /* Typography scaling */
+  :root {
+    --text-5xl: 4rem;    /* 64px */
+  }
+  
+  /* Container max width */
+  .container {
+    --container-padding: var(--space-8);
+  }
+  
+  /* Section spacing */
+  .section {
+    padding-top: var(--space-20);
+    padding-bottom: var(--space-20);
+  }
+  
+  /* Navigation spacing */
+  .nav__list {
+    gap: var(--space-8);
+  }
+  
+  /* Hero - larger content area */
+  .hero__content {
+    padding-right: var(--space-8);
+  }
+  
+  /* Cards - 4 columns for assets */
+  .cards-grid--4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  /* Values - 5 columns */
+  .values-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
+  /* Testimonials - 3 columns */
+  .testimonials-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  /* Large section headers */
+  .section-header {
+    max-width: 700px;
+    margin-bottom: var(--space-12);
+  }
+  
+  .section-header__title {
+    font-size: var(--text-4xl);
+  }
+  
+  /* CTA section */
+  .cta-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-8);
+  }
+  
+  .cta-section__content {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .cta-section__actions {
+    flex-shrink: 0;
+  }
+}
+
+/* ============================================
+   LARGE SCREENS (1280px+)
+   ============================================ */
+@media screen and (min-width: 1280px) {
+  /* Container max width */
+  :root {
+    --container-max: 1320px;
+  }
+  
+  /* Typography */
+  :root {
+    --text-5xl: 4.5rem;   /* 72px */
+  }
+  
+  /* Hero even larger */
+  .hero__title {
+    font-size: var(--text-5xl);
+  }
+  
+  /* More breathing room */
+  .section-header {
+    max-width: 800px;
+  }
+  
+  /* Cards with more space */
+  .cards-grid {
+    gap: var(--space-8);
+  }
+}
+
+/* ============================================
+   EXTRA LARGE SCREENS (1536px+)
+   ============================================ */
+@media screen and (min-width: 1536px) {
+  :root {
+    --container-max: 1440px;
+  }
+  
+  /* Even larger typography */
+  .hero__title {
+    font-size: 5rem;
+  }
+}
+
+/* ============================================
+   LANDSCAPE MOBILE (height consideration)
+   ============================================ */
+@media screen and (max-width: 767px) and (orientation: landscape) {
+  .hero {
+    min-height: auto;
+    padding-top: 80px;
+    padding-bottom: var(--space-8);
+  }
+  
+  .hero__scroll {
+    display: none;
+  }
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+@media print {
+  .header,
+  .footer,
+  .hero__scroll,
+  .btn,
+  .mobile-nav,
+  .nav-overlay {
+    display: none !important;
+  }
+  
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+    color: black;
+    background: white;
+  }
+  
+  .hero {
+    min-height: auto;
+    padding: 20pt 0;
+    background: white;
+    color: black;
+  }
+  
+  .hero__title {
+    color: black;
+  }
+  
+  .section {
+    padding: 20pt 0;
+    page-break-inside: avoid;
+  }
+  
+  .card {
+    box-shadow: none;
+    border: 1px solid #ccc;
+    page-break-inside: avoid;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+  
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 10pt;
+    color: #666;
+  }
+}
+
+/* ============================================
+   HIGH CONTRAST MODE
+   ============================================ */
+@media (prefers-contrast: high) {
+  :root {
+    --color-primary: #0A1A15;
+    --color-accent: #B04030;
+    --color-sand: #D0C4A0;
+    --text-muted: #404040;
+  }
+  
+  .btn {
+    border: 2px solid currentColor;
+  }
+  
+  .card {
+    border: 2px solid var(--color-primary);
+  }
+}
+
+/* ============================================
+   DARK MODE (Future consideration)
+   ============================================ */
+@media (prefers-color-scheme: dark) {
+  /* 
+   * Note: Dark mode is currently disabled
+   * The brand colors work best on light backgrounds
+   * Uncomment below if dark mode is desired:
+   */
+  
+  /*
+  :root {
+    --bg-primary: #1A1A1A;
+    --bg-secondary: #2D2D2D;
+    --text-primary: #FAF8F5;
+    --text-secondary: #B0B0B0;
+    --color-sand: #3A3A3A;
+    --color-cream: #2D2D2D;
+  }
+  */
+}
+
+/* ============================================
+   TOUCH DEVICE OPTIMIZATIONS
+   ============================================ */
+@media (hover: none) and (pointer: coarse) {
+  /* Larger touch targets */
+  .btn {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  .nav__link {
+    padding: var(--space-3);
+  }
+  
+  .mobile-nav__link {
+    padding: var(--space-4);
+  }
+  
+  /* Disable hover effects on touch */
+  .card:hover {
+    transform: none;
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .btn--primary:hover,
+  .btn--secondary:hover {
+    transform: none;
+  }
+}
+
+/* ============================================
+   FINE POINTER (Mouse users)
+   ============================================ */
+@media (hover: hover) and (pointer: fine) {
+  /* Enable all hover effects - default styles apply */
+}
+
+/* ============================================
+   UTILITY RESPONSIVE CLASSES
+   ============================================ */
+
+/* Hide on mobile */
+.hide-mobile {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hide-mobile {
+    display: block;
+  }
+  
+  .hide-desktop {
+    display: none;
+  }
+}
+
+/* Show only on mobile */
+.show-mobile {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .show-mobile {
+    display: none;
+  }
+}
+
+/* Text alignment responsive */
+@media screen and (min-width: 768px) {
+  .md\:text-left {
+    text-align: left;
+  }
+  
+  .md\:text-center {
+    text-align: center;
+  }
+  
+  .md\:text-right {
+    text-align: right;
+  }
+}
+
+/* Flexbox direction responsive */
+@media screen and (min-width: 768px) {
+  .md\:flex-row {
+    flex-direction: row;
+  }
+  
+  .md\:flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+/* Grid responsive */
+@media screen and (min-width: 600px) {
+  .sm\:grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
+  .md\:grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+  .md\:grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+  .lg\:grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
+  .lg\:grid-cols-5 { grid-template-columns: repeat(5, 1fr); }
+}
+
+/* Gap responsive */
+@media screen and (min-width: 768px) {
+  .md\:gap-6 { gap: var(--space-6); }
+  .md\:gap-8 { gap: var(--space-8); }
+  .md\:gap-10 { gap: var(--space-10); }
+}
+
+/* Padding responsive */
+@media screen and (min-width: 768px) {
+  .md\:py-16 { 
+    padding-top: var(--space-16); 
+    padding-bottom: var(--space-16); 
+  }
+  
+  .md\:py-20 { 
+    padding-top: var(--space-20); 
+    padding-bottom: var(--space-20); 
+  }
+}

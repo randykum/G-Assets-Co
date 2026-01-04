@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <!-- Refrigerator/Freezer Illustration -->
+  
+  <!-- Main body -->
+  <rect x="15" y="8" width="50" height="65" rx="3" fill="#E8DCC4" stroke="#1A3C34" stroke-width="2"/>
+  
+  <!-- Freezer compartment (top) -->
+  <rect x="18" y="11" width="44" height="18" rx="2" fill="#FAF8F5" stroke="#1A3C34" stroke-width="1.5"/>
+  
+  <!-- Freezer handle -->
+  <rect x="55" y="16" width="4" height="8" rx="2" fill="#1A3C34"/>
+  
+  <!-- Fridge compartment -->
+  <rect x="18" y="32" width="44" height="38" rx="2" fill="#FAF8F5" stroke="#1A3C34" stroke-width="1.5"/>
+  
+  <!-- Fridge handle -->
+  <rect x="55" y="42" width="4" height="18" rx="2" fill="#1A3C34"/>
+  
+  <!-- Shelves -->
+  <line x1="20" y1="45" x2="52" y2="45" stroke="#E8DCC4" stroke-width="2"/>
+  <line x1="20" y1="55" x2="52" y2="55" stroke="#E8DCC4" stroke-width="2"/>
+  
+  <!-- Items on shelves -->
+  <rect x="24" y="35" width="8" height="9" rx="1" fill="#C45C3B" opacity="0.7"/>
+  <circle cx="40" cy="40" r="4" fill="#1A3C34" opacity="0.5"/>
+  <rect x="24" y="47" width="12" height="6" rx="1" fill="#C45C3B" opacity="0.5"/>
+  
+  <!-- Cooling indicator -->
+  <circle cx="25" cy="18" r="2" fill="#1A3C34"/>
+  
+  <!-- Temperature control -->
+  <circle cx="62" cy="75" r="3" fill="#C45C3B" stroke="#1A3C34" stroke-width="1"/>
+</svg>

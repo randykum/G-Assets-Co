@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <!-- Ice Cream Machine Illustration -->
+  <!-- Custom stylized design for G'Asset Co. -->
+  
+  <!-- Machine body -->
+  <rect x="15" y="25" width="50" height="45" rx="4" fill="#E8DCC4" stroke="#1A3C34" stroke-width="2"/>
+  
+  <!-- Dispensing area -->
+  <rect x="25" y="35" width="30" height="20" rx="2" fill="#FAF8F5" stroke="#1A3C34" stroke-width="2"/>
+  
+  <!-- Dispensing nozzles -->
+  <rect x="30" y="55" width="6" height="8" fill="#1A3C34"/>
+  <rect x="44" y="55" width="6" height="8" fill="#1A3C34"/>
+  
+  <!-- Top container -->
+  <path d="M20 25 L25 10 L55 10 L60 25" fill="#C45C3B" stroke="#1A3C34" stroke-width="2"/>
+  
+  <!-- Control panel -->
+  <circle cx="30" cy="42" r="3" fill="#C45C3B"/>
+  <circle cx="40" cy="42" r="3" fill="#1A3C34"/>
+  <circle cx="50" cy="42" r="3" fill="#C45C3B"/>
+  
+  <!-- Ice cream cone illustration -->
+  <path d="M40 68 L35 78 L45 78 Z" fill="#E8DCC4" stroke="#1A3C34" stroke-width="1.5"/>
+  <ellipse cx="40" cy="68" rx="6" ry="4" fill="#FAF8F5" stroke="#1A3C34" stroke-width="1.5"/>
+  <ellipse cx="40" cy="65" rx="5" ry="3" fill="#C45C3B"/>
+</svg>

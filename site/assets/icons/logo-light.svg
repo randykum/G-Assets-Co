@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- G'Asset Co. Logo - Light Version for dark backgrounds -->
+  
+  <g id="logo-mark">
+    <!-- Outer arc of G -->
+    <path 
+      d="M60 12C31.5 12 12 34.5 12 60C12 85.5 31.5 108 60 108C78 108 93 98 102 84" 
+      stroke="#FAF8F5" 
+      stroke-width="10" 
+      stroke-linecap="round"
+      fill="none"
+    />
+    
+    <!-- Inner horizontal bar of G -->
+    <path 
+      d="M60 60H90" 
+      stroke="#FAF8F5" 
+      stroke-width="10" 
+      stroke-linecap="round"
+    />
+    
+    <!-- Growth arrow -->
+    <path 
+      d="M90 60V30" 
+      stroke="#C45C3B" 
+      stroke-width="10" 
+      stroke-linecap="round"
+    />
+    
+    <!-- Arrow head -->
+    <path 
+      d="M78 42L90 28L102 42" 
+      stroke="#C45C3B" 
+      stroke-width="10" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      fill="none"
+    />
+  </g>
+  
+  <!-- Apostrophe accent -->
+  <circle cx="48" cy="20" r="5" fill="#C45C3B"/>
+</svg>

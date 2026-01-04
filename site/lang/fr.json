@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "lang": "fr",
+    "langName": "Français",
+    "dir": "ltr"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "assets": "Nos Équipements",
+    "howItWorks": "Comment Ça Marche",
+    "contact": "Contact"
+  },
+  "header": {
+    "cta": "Commencer"
+  },
+  "hero": {
+    "badge": "Financement de Micro-Équipements au Cameroun",
+    "title": "Construisez Votre Avenir, <span>Un Équipement à la Fois</span>",
+    "text": "G'Asset Co. accompagne les entrepreneurs et les familles de Douala avec des solutions de location-vente abordables. Démarrez votre entreprise ou améliorez votre quotidien dès aujourd'hui — sans versement initial important.",
+    "cta": "Explorer les Équipements",
+    "ctaSecondary": "Comment Ça Marche",
+    "scroll": "Défiler pour découvrir"
+  },
+  "about": {
+    "subtitle": "À Propos",
+    "title": "Réaliser les Rêves Grâce à un Financement Accessible",
+    "text1": "G'Asset Co. a été fondée avec une mission simple : rendre les équipements essentiels accessibles à tous au Cameroun, quel que soit leur point de départ financier.",
+    "text2": "Nous croyons que posséder le bon équipement — qu'il s'agisse d'une machine à coudre pour démarrer une entreprise de couture, ou d'un réfrigérateur pour votre famille — ne devrait pas être un rêve lointain. Notre modèle de location-vente élimine les barrières financières, vous permettant de payer en versements gérables tout en bénéficiant immédiatement de l'équipement.",
+    "cta": "Lire Notre Histoire",
+    "mission": {
+      "subtitle": "Notre Mission",
+      "title": "Construire la Prospérité, Un Équipement à la Fois",
+      "text": "Nous existons pour combler le fossé entre l'aspiration et la réalisation. En fournissant des solutions de financement flexibles, nous aidons les individus et les petites entreprises à acquérir les outils dont ils ont besoin pour prospérer."
+    },
+    "vision": {
+      "subtitle": "Notre Vision",
+      "title": "Un Cameroun Où Chacun Peut Construire Son Avenir",
+      "text": "Nous envisageons une société où les contraintes financières n'empêchent plus les entrepreneurs talentueux et les familles travailleuses d'atteindre leurs objectifs."
+    }
+  },
+  "values": {
+    "subtitle": "Nos Valeurs Fondamentales",
+    "title": "Ce Qui Guide Tout Ce Que Nous Faisons",
+    "transparency": {
+      "title": "Transparence",
+      "text": "Des prix clairs, pas de frais cachés. Vous savez toujours exactement ce que vous payez."
+    },
+    "socialImpact": {
+      "title": "Impact Social",
+      "text": "Chaque équipement que nous finançons crée des opportunités — pour les individus, les familles et les communautés."
+    },
+    "empowerment": {
+      "title": "Autonomisation Financière",
+      "text": "Nous vous donnons les outils pour construire la richesse et l'indépendance, étape par étape."
+    },
+    "integrity": {
+      "title": "Intégrité",
+      "text": "Nous tenons nos promesses et traitons chaque client avec équité et respect."
+    },
+    "innovation": {
+      "title": "Innovation",
+      "text": "Nous améliorons continuellement nos services pour mieux répondre à vos besoins."
+    }
+  },
+  "assets": {
+    "subtitle": "Notre Catalogue d'Équipements",
+    "title": "Des Équipements de Qualité pour Votre Succès",
+    "text": "Parcourez notre sélection d'équipements soigneusement sélectionnés. Chacun est conçu pour vous aider à démarrer ou développer votre entreprise, ou améliorer votre quotidien.",
+    "cta": "Voir Tous les Équipements",
+    "viewDetails": "Voir les Détails",
+    "priceFrom": "À partir de",
+    "perWeek": "/semaine",
+    "perMonth": "/mois",
+    "catalog": {
+      "iceCreamMachine": {
+        "name": "Machine à Glace",
+        "description": "Machine à glace italienne professionnelle parfaite pour démarrer votre commerce de desserts glacés. Grande capacité et facile à utiliser.",
+        "ideal": "Vendeurs de glaces, cafés, traiteurs événementiels"
+      },
+      "popcornMachine": {
+        "name": "Machine à Popcorn",
+        "description": "Machine à popcorn de qualité commerciale pour cinémas, événements et vente ambulante. Design attrayant pour attirer les clients.",
+        "ideal": "Exploitants de cinéma, organisateurs d'événements, vendeurs ambulants"
+      },
+      "sewingMachine": {
+        "name": "Machine à Coudre",
+        "description": "Machine à coudre de qualité industrielle pour la couture, les retouches et le design de mode. Durable et polyvalente.",
+        "ideal": "Tailleurs, designers de mode, couturières"
+      },
+      "oven": {
+        "name": "Four",
+        "description": "Four de cuisson professionnel pour pâtisseries, pains et restauration. Plusieurs étages pour une production à grand volume.",
+        "ideal": "Boulangers, restaurants, entreprises de traiteur"
+      },
+      "gasCooker": {
+        "name": "Cuisinière à Gaz",
+        "description": "Cuisinière à gaz robuste pour restaurants et traiteurs. Plusieurs brûleurs pour une cuisson efficace.",
+        "ideal": "Restaurants, cantines, vendeurs de nourriture"
+      },
+      "refrigerator": {
+        "name": "Réfrigérateur",
+        "description": "Réfrigérateur grande capacité pour le stockage au froid. Parfait pour les foyers ou les petites entreprises.",
+        "ideal": "Familles, petites boutiques, restaurants"
+      },
+      "displayFreezer": {
+        "name": "Congélateur Vitrine",
+        "description": "Congélateur vitrine avec façade en verre pour la vente de produits surgelés. Économe en énergie avec une excellente visibilité.",
+        "ideal": "Épiceries, glaciers, supermarchés"
+      },
+      "blender": {
+        "name": "Mixeur Commercial",
+        "description": "Mixeur commercial haute puissance pour smoothies, jus et préparation alimentaire. Moteur robuste.",
+        "ideal": "Bars à jus, restaurants, cafés"
+      },
+      "juiceExtractor": {
+        "name": "Extracteur de Jus",
+        "description": "Extracteur de jus professionnel pour jus de fruits et légumes frais. Extraction à haut rendement.",
+        "ideal": "Bars à jus, vendeurs d'aliments santé, restaurants"
+      },
+      "meatGrinder": {
+        "name": "Hachoir à Viande",
+        "description": "Hachoir à viande commercial pour bouchers et transformateurs alimentaires. Construction en acier inoxydable.",
+        "ideal": "Bouchers, restaurants, transformateurs alimentaires"
+      },
+      "shawarmaGrill": {
+        "name": "Grill à Shawarma",
+        "description": "Grill à rôtissoire verticale pour shawarma et viandes grillées. Qualité professionnelle de restaurant.",
+        "ideal": "Restaurants de restauration rapide, vendeurs de street food"
+      }
+    }
+  },
+  "howItWorks": {
+    "subtitle": "Comment Ça Marche",
+    "title": "Quatre Étapes Simples Vers la Propriété",
+    "text": "Notre processus est conçu pour être simple et transparent. Pas de paperasse compliquée, pas de mauvaises surprises.",
+    "cta": "Commencer Votre Demande",
+    "step1": {
+      "title": "Parcourir et Choisir",
+      "text": "Explorez notre catalogue et sélectionnez l'équipement qui correspond à vos besoins et objectifs."
+    },
+    "step2": {
+      "title": "Postuler et Être Approuvé",
+      "text": "Remplissez une demande simple. Nous l'examinerons rapidement et vous répondrons sous 24 heures."
+    },
+    "step3": {
+      "title": "Recevoir Votre Équipement",
+      "text": "Une fois approuvé, nous livrons votre équipement directement chez vous. Commencez à l'utiliser immédiatement."
+    },
+    "step4": {
+      "title": "Payer et Posséder",
+      "text": "Effectuez des paiements hebdomadaires ou mensuels adaptés à votre budget. Une fois terminé, l'équipement est 100% à vous."
+    },
+    "benefits": {
+      "title": "Pourquoi Choisir la Location-Vente?",
+      "benefit1": "Pas de gros versement initial requis",
+      "benefit2": "Commencez à gagner avec votre équipement immédiatement",
+      "benefit3": "Calendriers de paiement flexibles",
+      "benefit4": "Construisez votre historique de crédit",
+      "benefit5": "Pleine propriété à la fin",
+      "benefit6": "Équipement de qualité garantie"
+    }
+  },
+  "testimonials": {
+    "subtitle": "Histoires de Réussite",
+    "title": "Écoutez Nos Clients Satisfaits",
+    "text": "Des vraies personnes, de vraies histoires. Découvrez comment G'Asset Co. a aidé des entrepreneurs et des familles à réaliser leurs rêves.",
+    "testimonial1": {
+      "quote": "Grâce à G'Asset Co., j'ai démarré mon entreprise de couture avec juste un petit paiement hebdomadaire. Maintenant j'ai ma propre boutique et j'emploie deux apprentis!",
+      "name": "Marie Njoya",
+      "role": "Couturière, Douala"
+    },
+    "testimonial2": {
+      "quote": "La machine à glace a tout changé pour moi. Je ne pouvais pas l'acheter d'un coup, mais le plan de location-vente l'a rendu possible. Maintenant je vends plus de 200 cornets par jour!",
+      "name": "Emmanuel Fotso",
+      "role": "Vendeur de Glaces, Akwa"
+    },
+    "testimonial3": {
+      "quote": "Professionnels, transparents et vraiment serviables. Ils ont travaillé avec moi pour trouver un plan de paiement adapté au budget de ma famille. Je les recommande à tous.",
+      "name": "Aïssatou Mbarga",
+      "role": "Propriétaire de Restaurant, Bonanjo"
+    }
+  },
+  "cta": {
+    "title": "Prêt à Commencer Votre Parcours?",
+    "text": "Faites le premier pas vers la possession de l'équipement qui transformera votre avenir. Notre équipe est là pour vous accompagner à chaque étape.",
+    "button": "Contactez-Nous Aujourd'hui",
+    "whatsapp": "Discuter sur WhatsApp"
+  },
+  "contact": {
+    "subtitle": "Contactez-Nous",
+    "title": "Nous Sommes Là Pour Vous Aider",
+    "text": "Vous avez des questions? Vous voulez postuler? Contactez-nous par l'un de ces canaux. Nous répondons généralement en quelques heures.",
+    "form": {
+      "title": "Envoyez-Nous un Message",
+      "name": "Votre Nom",
+      "namePlaceholder": "Entrez votre nom complet",
+      "email": "Adresse Email",
+      "emailPlaceholder": "votre.email@exemple.com",
+      "phone": "Numéro de Téléphone",
+      "phonePlaceholder": "+237 6XX XXX XXX",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Comment pouvons-nous vous aider?",
+      "message": "Votre Message",
+      "messagePlaceholder": "Dites-nous en plus sur vos besoins...",
+      "submit": "Envoyer le Message",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé avec succès! Nous vous répondrons bientôt.",
+      "error": "Une erreur s'est produite. Veuillez réessayer ou nous contacter directement."
+    },
+    "info": {
+      "title": "Informations de Contact",
+      "address": "Douala, Cameroun",
+      "addressDetail": "Akwa, Près de la Station Total",
+      "phone": "+237 6XX XXX XXX",
+      "email": "info@gassetco.com",
+      "hours": "Lundi - Samedi: 8h00 - 18h00"
+    },
+    "whatsapp": {
+      "title": "Chat Rapide",
+      "text": "Vous préférez WhatsApp? Envoyez-nous un message et nous répondrons rapidement.",
+      "button": "Ouvrir WhatsApp"
+    }
+  },
+  "footer": {
+    "description": "Accompagner les entrepreneurs et les familles au Cameroun avec des solutions de location-vente accessibles. Construisez votre avenir, un équipement à la fois.",
+    "quickLinks": "Liens Rapides",
+    "contact": "Contactez-Nous",
+    "followUs": "Suivez-Nous",
+    "copyright": "© 2024 G'Asset Co. Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation"
+  },
+  "common": {
+    "learnMore": "En Savoir Plus",
+    "getStarted": "Commencer",
+    "viewAll": "Voir Tout",
+    "close": "Fermer",
+    "menu": "Menu",
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent"
+  },
+  "accessibility": {
+    "skipToContent": "Aller au contenu principal",
+    "openMenu": "Ouvrir le menu de navigation",
+    "closeMenu": "Fermer le menu de navigation",
+    "changeLanguage": "Changer de langue",
+    "scrollDown": "Défiler vers le bas pour plus"
+  }
+}

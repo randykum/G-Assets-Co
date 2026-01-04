@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <!-- Industrial Oven Illustration -->
+  
+  <!-- Main body -->
+  <rect x="10" y="15" width="60" height="55" rx="4" fill="#E8DCC4" stroke="#1A3C34" stroke-width="2"/>
+  
+  <!-- Oven door window -->
+  <rect x="18" y="28" width="44" height="30" rx="2" fill="#1A3C34" stroke="#1A3C34" stroke-width="2"/>
+  <rect x="22" y="32" width="36" height="22" rx="1" fill="#2D2D2D" opacity="0.8"/>
+  
+  <!-- Heat glow inside -->
+  <rect x="24" y="46" width="32" height="6" rx="1" fill="#C45C3B" opacity="0.6"/>
+  
+  <!-- Control panel -->
+  <rect x="18" y="18" width="44" height="8" fill="#FAF8F5" stroke="#1A3C34" stroke-width="1"/>
+  
+  <!-- Control knobs -->
+  <circle cx="28" cy="22" r="3" fill="#C45C3B" stroke="#1A3C34" stroke-width="1"/>
+  <circle cx="40" cy="22" r="3" fill="#1A3C34"/>
+  <circle cx="52" cy="22" r="3" fill="#C45C3B" stroke="#1A3C34" stroke-width="1"/>
+  
+  <!-- Temperature display -->
+  <rect x="58" y="19" width="8" height="5" rx="1" fill="#1A3C34"/>
+  <text x="59" y="23" fill="#C45C3B" font-size="4" font-family="monospace">180</text>
+  
+  <!-- Door handle -->
+  <rect x="55" y="40" width="4" height="12" rx="2" fill="#1A3C34"/>
+  
+  <!-- Ventilation -->
+  <line x1="15" y1="12" x2="25" y2="12" stroke="#1A3C34" stroke-width="2" stroke-linecap="round"/>
+  <line x1="35" y1="12" x2="45" y2="12" stroke="#1A3C34" stroke-width="2" stroke-linecap="round"/>
+  <line x1="55" y1="12" x2="65" y2="12" stroke="#1A3C34" stroke-width="2" stroke-linecap="round"/>
+</svg>

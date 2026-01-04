@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <!-- Shawarma Grill Illustration -->
+  
+  <!-- Vertical rotisserie pole -->
+  <rect x="38" y="10" width="4" height="55" fill="#1A3C34"/>
+  
+  <!-- Meat stack -->
+  <ellipse cx="40" cy="20" rx="12" ry="6" fill="#C45C3B" stroke="#1A3C34" stroke-width="1"/>
+  <ellipse cx="40" cy="28" rx="14" ry="7" fill="#C45C3B" stroke="#1A3C34" stroke-width="1"/>
+  <ellipse cx="40" cy="38" rx="15" ry="8" fill="#C45C3B" stroke="#1A3C34" stroke-width="1"/>
+  <ellipse cx="40" cy="48" rx="14" ry="7" fill="#C45C3B" stroke="#1A3C34" stroke-width="1"/>
+  <ellipse cx="40" cy="56" rx="12" ry="5" fill="#C45C3B" stroke="#1A3C34" stroke-width="1"/>
+  
+  <!-- Heat source (vertical burner) -->
+  <rect x="12" y="18" width="8" height="45" rx="2" fill="#E8DCC4" stroke="#1A3C34" stroke-width="2"/>
+  
+  <!-- Flames -->
+  <path d="M20 25 Q24 22 20 28" stroke="#C45C3B" stroke-width="2" fill="none"/>
+  <path d="M20 35 Q24 32 20 38" stroke="#C45C3B" stroke-width="2" fill="none"/>
+  <path d="M20 45 Q24 42 20 48" stroke="#C45C3B" stroke-width="2" fill="none"/>
+  <path d="M20 55 Q24 52 20 58" stroke="#C45C3B" stroke-width="2" fill="none"/>
+  
+  <!-- Base unit -->
+  <rect x="15" y="65" width="50" height="10" rx="3" fill="#1A3C34"/>
+  
+  <!-- Collection tray -->
+  <path d="M28 62 L28 65 L52 65 L52 62 C52 62 40 60 28 62 Z" fill="#E8DCC4" stroke="#1A3C34" stroke-width="1"/>
+  
+  <!-- Control knob -->
+  <circle cx="60" cy="70" r="3" fill="#C45C3B" stroke="#FAF8F5" stroke-width="1"/>
+  
+  <!-- Drip effect -->
+  <circle cx="35" cy="63" r="1" fill="#C45C3B" opacity="0.5"/>
+  <circle cx="45" cy="64" r="1" fill="#C45C3B" opacity="0.5"/>
+</svg>

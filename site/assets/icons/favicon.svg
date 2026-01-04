@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- G'Asset Co. Favicon - Simplified for small sizes -->
+  
+  <!-- Outer arc of G -->
+  <path 
+    d="M16 3C8.3 3 3 9.2 3 16C3 22.8 8.3 29 16 29C20.8 29 24.8 26.3 27.2 22.4" 
+    stroke="#1A3C34" 
+    stroke-width="3" 
+    stroke-linecap="round"
+    fill="none"
+  />
+  
+  <!-- Horizontal bar -->
+  <path 
+    d="M16 16H24" 
+    stroke="#1A3C34" 
+    stroke-width="3" 
+    stroke-linecap="round"
+  />
+  
+  <!-- Growth arrow -->
+  <path 
+    d="M24 16V8" 
+    stroke="#C45C3B" 
+    stroke-width="3" 
+    stroke-linecap="round"
+  />
+  
+  <!-- Arrow head -->
+  <path 
+    d="M20.5 11L24 7L27.5 11" 
+    stroke="#C45C3B" 
+    stroke-width="3" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+    fill="none"
+  />
+  
+  <!-- Apostrophe dot -->
+  <circle cx="12.5" cy="5" r="1.5" fill="#C45C3B"/>
+</svg>
