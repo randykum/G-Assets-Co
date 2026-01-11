@@ -645,7 +645,7 @@ p:last-child {
   display: flex;
   align-items: center;
   gap: var(--space-1);
-  padding: var(--space-1) var(--space-2);
+  padding: var(--space-1);
   font-size: var(--text-sm);
   font-weight: var(--font-medium);
   background-color: var(--color-sand);
@@ -780,7 +780,7 @@ p:last-child {
 .hero__background {
   position: absolute;
   inset: 0;
-  opacity: 0.1;
+  opacity: 0.25;
 }
 
 .hero__background-pattern {
