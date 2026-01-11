@@ -219,14 +219,17 @@
 
     navLinks.forEach(link => {
       const href = link.getAttribute('href');
+      const isDesktopNav = link.classList.contains('nav__link');
+      const isMobileNav = link.classList.contains('mobile-nav__link');
+      const activeClass = isDesktopNav ? 'nav__link--active' : 'mobile-nav__link--active';
       
       // Match current page
       if (href === pageName || 
           (pageName === '' && href === 'index.html') ||
           (pageName === 'index.html' && href === './')) {
-        link.classList.add('nav__link--active', 'mobile-nav__link--active');
+        link.classList.add(activeClass);
       } else {
-        link.classList.remove('nav__link--active', 'mobile-nav__link--active');
+        link.classList.remove(activeClass);
       }
     });
   }

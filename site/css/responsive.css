@@ -59,6 +59,11 @@
   
   .hero__content {
     max-width: 500px;
+    text-align: left;
+  }
+  
+  .hero__actions {
+    justify-content: flex-start;
   }
   
   /* Footer grid */
