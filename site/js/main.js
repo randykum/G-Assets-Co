@@ -380,12 +380,26 @@
       button.addEventListener('click', (e) => {
         e.preventDefault();
         
-        const phone = button.getAttribute('data-whatsapp') || '237600000000';
-        const message = button.getAttribute('data-whatsapp-message') || 
-          (window.i18n ? 
-            `Hello! I'm interested in G'Asset Co.'s hire-purchase services.` : 
-            `Bonjour! Je suis intéressé(e) par les services de location-vente de G'Asset Co.`
-          );
+        const phone = button.getAttribute('data-whatsapp') || '237697654334';
+        const assetName = button.getAttribute('data-asset-name');
+        const lang = localStorage.getItem('gassetco_lang') || 'en';
+        
+        let message;
+        if (assetName) {
+          // Asset-specific message
+          if (lang === 'fr') {
+            message = `Bonjour, je suis intéressé(e) par ${assetName}. Veuillez me donner plus d'informations sur les prix et les options de paiement.`;
+          } else {
+            message = `Hello, I am interested in the ${assetName}. Please tell me more about pricing and payment options.`;
+          }
+        } else {
+          // General message
+          message = button.getAttribute('data-whatsapp-message') || 
+            (lang === 'fr' ? 
+              `Bonjour! Je suis intéressé(e) par les services de location-vente de G'Asset Co.` :
+              `Hello! I'm interested in G'Asset Co.'s hire-purchase services.`
+            );
+        }
         
         openWhatsApp(phone, message);
       });

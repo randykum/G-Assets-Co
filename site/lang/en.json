@@ -17,7 +17,8 @@
   "hero": {
     "badge": "Micro-Asset Financing in Cameroon",
     "title": "Own Your Future, <span>One Asset at a Time</span>",
-    "text": "G'Asset Co. empowers entrepreneurs and families in Douala with affordable hire-purchase solutions. Start your business or improve your home today — no large upfront payment required.",
+    "slogan": "We do not just sell production equipment, we sell business solutions.",
+    "text": "G'Asset Co. empowers aspiring entrepreneurs, established businesses, and SMEs in Cameroon with affordable hire-purchase solutions. Start your business or grow your operations today. No large upfront payment required.",
     "cta": "Explore Assets",
     "ctaSecondary": "Learn How It Works",
     "scroll": "Scroll to discover"
@@ -26,7 +27,7 @@
     "subtitle": "About Us",
     "title": "Empowering Dreams Through Accessible Financing",
     "text1": "G'Asset Co. was founded with a simple mission: to make essential assets accessible to everyone in Cameroon, regardless of their financial starting point.",
-    "text2": "We believe that owning the right equipment — whether it's a sewing machine to start a tailoring business, or a refrigerator for your family — should not be a distant dream. Our hire-purchase model breaks down financial barriers, allowing you to pay in manageable installments while immediately benefiting from the asset.",
+    "text2": "We believe that owning the right equipment (whether it's a sewing machine to start a tailoring business or a refrigerator for your family) should not be a distant dream. Our hire-purchase model breaks down financial barriers, allowing you to pay in manageable installments while immediately benefiting from the asset.",
     "cta": "Read Our Full Story",
     "mission": {
       "subtitle": "Our Mission",
@@ -48,7 +49,7 @@
     },
     "socialImpact": {
       "title": "Social Impact",
-      "text": "Every asset we finance creates opportunity — for individuals, families, and communities."
+      "text": "Every asset we finance creates opportunities for individuals, families, and communities."
     },
     "empowerment": {
       "title": "Financial Empowerment",
@@ -198,7 +199,7 @@
       "email": "Email Address",
       "emailPlaceholder": "your.email@example.com",
       "phone": "Phone Number",
-      "phonePlaceholder": "+237 6XX XXX XXX",
+      "phonePlaceholder": "+237 6 97 65 43 34",
       "subject": "Subject",
       "subjectPlaceholder": "What can we help you with?",
       "message": "Your Message",
@@ -212,7 +213,7 @@
       "title": "Contact Information",
       "address": "Douala, Cameroon",
       "addressDetail": "Akwa, Near Total Gas Station",
-      "phone": "+237 6XX XXX XXX",
+      "phone": "+237 6 97 65 43 34",
       "email": "info@gassetco.com",
       "hours": "Monday - Saturday: 8:00 AM - 6:00 PM"
     },
@@ -249,5 +250,10 @@
     "closeMenu": "Close navigation menu",
     "changeLanguage": "Change language",
     "scrollDown": "Scroll down for more"
+  },
+  "supplier": {
+    "poweredBy": "Equipment powered by",
+    "verified": "Verified Partner",
+    "description": "AmpleBerrys is our trusted partner for high-quality commercial and industrial equipment, ensuring reliability and performance for your business."
   }
 }

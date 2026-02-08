@@ -1,0 +1,1 @@
+1. The UI should be ultra responsive. Most people will be visiting using their mobile devices.
