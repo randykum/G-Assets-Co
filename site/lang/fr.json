@@ -20,8 +20,7 @@
     "slogan": "Nous ne vendons pas juste des équipements de production, nous vendons des solutions d'affaires.",
     "text": "G'Asset Co. accompagne les entrepreneurs en herbe, les entreprises établies et les PME au Cameroun avec des solutions de location-vente abordables. Démarrez votre entreprise ou développez vos opérations dès aujourd'hui. Sans versement initial important.",
     "cta": "Explorer les Équipements",
-    "ctaSecondary": "Comment Ça Marche",
-    "scroll": "Défiler pour découvrir"
+    "ctaSecondary": "Comment Ça Marche"
   },
   "about": {
     "subtitle": "À Propos",
@@ -249,9 +248,11 @@
     "openMenu": "Ouvrir le menu de navigation",
     "closeMenu": "Fermer le menu de navigation",
     "changeLanguage": "Changer de langue",
-    "scrollDown": "Défiler vers le bas pour plus"  },
+    "scrollDown": "Défiler vers le bas pour plus"
+  },
   "supplier": {
     "poweredBy": "Équipements fournis par",
     "verified": "Partenaire Vérifié",
-    "description": "AmpleBerrys est notre partenaire de confiance pour des équipements commerciaux et industriels de haute qualité, garantissant fiabilité et performance pour votre entreprise."  }
+    "description": "AmpleBerrys est notre partenaire de confiance pour des équipements commerciaux et industriels de haute qualité, garantissant fiabilité et performance pour votre entreprise."
+  }
 }

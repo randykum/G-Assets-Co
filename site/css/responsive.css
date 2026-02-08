@@ -17,65 +17,68 @@
    TABLET BREAKPOINT (600px+)
    ============================================ */
 @media screen and (min-width: 600px) {
+
   /* Typography scaling */
   :root {
-    --text-4xl: 2.5rem;    /* 40px */
-    --text-5xl: 3.5rem;    /* 56px */
+    --text-4xl: 2.5rem;
+    /* 40px */
+    --text-5xl: 3.5rem;
+    /* 56px */
   }
-  
+
   /* Container */
   .container {
     --container-padding: var(--space-6);
   }
-  
+
   /* Section spacing */
   .section {
     padding-top: var(--space-16);
     padding-bottom: var(--space-16);
   }
-  
+
   /* Grid layouts */
   .grid-sm-2 {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .grid-sm-3 {
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
   /* Cards - 2 columns */
   .cards-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   /* Hero adjustments */
   .hero {
     min-height: 100vh;
   }
-  
+
   .hero__title {
     font-size: var(--text-5xl);
   }
-  
+
   .hero__content {
     max-width: 500px;
     text-align: left;
   }
-  
+
   .hero__actions {
     justify-content: flex-start;
   }
-  
+
   /* Footer grid */
   .footer__grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   /* Value cards - 2 columns */
   .values-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   /* Process steps - tablet vertical with connector */
   .process-grid {
     max-width: 500px;
@@ -95,27 +98,25 @@
     bottom: calc(-1 * var(--space-6));
     width: 2px;
     height: var(--space-6);
-    background: repeating-linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.25) 0px,
-      rgba(255, 255, 255, 0.25) 4px,
-      transparent 4px,
-      transparent 8px
-    );
+    background: repeating-linear-gradient(to bottom,
+        rgba(255, 255, 255, 0.25) 0px,
+        rgba(255, 255, 255, 0.25) 4px,
+        transparent 4px,
+        transparent 8px);
   }
-  
+
   /* Testimonials grid */
   .testimonials-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   /* Form layout - 2 columns */
   .form-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: var(--space-4);
   }
-  
+
   .form-row .form-group {
     margin-bottom: 0;
   }
@@ -125,20 +126,21 @@
    LAPTOP BREAKPOINT (768px+)
    ============================================ */
 @media screen and (min-width: 768px) {
+
   /* Desktop navigation visible */
   .nav {
     display: block;
   }
-  
+
   .menu-toggle {
     display: none;
   }
-  
+
   /* Header adjustments */
   .header__inner {
     height: 72px;
   }
-  
+
   /* Hero layout - can add side content */
   .hero__container {
     display: grid;
@@ -146,25 +148,25 @@
     gap: var(--space-8);
     align-items: center;
   }
-  
+
   .hero__content {
     max-width: none;
   }
-  
+
   .hero__visual {
     display: block;
   }
-  
+
   /* Cards - 3 columns */
   .cards-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
   /* Values - 3 columns */
   .values-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
   /* Process steps - horizontal layout with connectors */
   .process-grid {
     display: grid;
@@ -204,7 +206,7 @@
     width: 24px;
     height: 24px;
   }
-  
+
   /* About section - side by side */
   .about-grid {
     display: grid;
@@ -212,34 +214,34 @@
     gap: var(--space-10);
     align-items: center;
   }
-  
+
   .about-grid--reverse {
     direction: rtl;
   }
-  
-  .about-grid--reverse > * {
+
+  .about-grid--reverse>* {
     direction: ltr;
   }
-  
+
   /* Footer - 4 columns */
   .footer__grid {
     grid-template-columns: 2fr 1fr 1fr 1fr;
   }
-  
+
   /* Contact page layout */
   .contact-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--space-10);
   }
-  
+
   /* Stats section */
   .stats-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: var(--space-6);
   }
-  
+
   .stat {
     text-align: center;
     padding: var(--space-6);
@@ -250,57 +252,59 @@
    DESKTOP BREAKPOINT (1024px+)
    ============================================ */
 @media screen and (min-width: 1024px) {
+
   /* Typography scaling */
   :root {
-    --text-5xl: 4rem;    /* 64px */
+    --text-5xl: 4rem;
+    /* 64px */
   }
-  
+
   /* Container max width */
   .container {
     --container-padding: var(--space-8);
   }
-  
+
   /* Section spacing */
   .section {
     padding-top: var(--space-20);
     padding-bottom: var(--space-20);
   }
-  
+
   /* Navigation spacing */
   .nav__list {
     gap: var(--space-8);
   }
-  
+
   /* Hero - larger content area */
   .hero__content {
     padding-right: var(--space-8);
   }
-  
+
   /* Cards - 4 columns for assets */
   .cards-grid--4 {
     grid-template-columns: repeat(4, 1fr);
   }
-  
+
   /* Values - 5 columns */
   .values-grid {
     grid-template-columns: repeat(5, 1fr);
   }
-  
+
   /* Testimonials - 3 columns */
   .testimonials-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
   /* Large section headers */
   .section-header {
     max-width: 700px;
     margin-bottom: var(--space-12);
   }
-  
+
   .section-header__title {
     font-size: var(--text-4xl);
   }
-  
+
   /* CTA section */
   .cta-section {
     display: flex;
@@ -308,12 +312,12 @@
     justify-content: space-between;
     gap: var(--space-8);
   }
-  
+
   .cta-section__content {
     flex: 1;
     max-width: 600px;
   }
-  
+
   .cta-section__actions {
     flex-shrink: 0;
   }
@@ -323,26 +327,28 @@
    LARGE SCREENS (1280px+)
    ============================================ */
 @media screen and (min-width: 1280px) {
+
   /* Container max width */
   :root {
     --container-max: 1320px;
   }
-  
+
   /* Typography */
   :root {
-    --text-5xl: 4.5rem;   /* 72px */
+    --text-5xl: 4.5rem;
+    /* 72px */
   }
-  
+
   /* Hero even larger */
   .hero__title {
     font-size: var(--text-5xl);
   }
-  
+
   /* More breathing room */
   .section-header {
     max-width: 800px;
   }
-  
+
   /* Cards with more space */
   .cards-grid {
     gap: var(--space-8);
@@ -356,7 +362,7 @@
   :root {
     --container-max: 1440px;
   }
-  
+
   /* Even larger typography */
   .hero__title {
     font-size: 5rem;
@@ -372,10 +378,8 @@
     padding-top: 80px;
     padding-bottom: var(--space-8);
   }
-  
-  .hero__scroll {
-    display: none;
-  }
+
+
 }
 
 /* ============================================
@@ -384,46 +388,46 @@
 @media print {
   .header,
   .footer,
-  .hero__scroll,
+
   .btn,
   .mobile-nav,
   .nav-overlay {
     display: none !important;
   }
-  
+
   body {
     font-size: 12pt;
     line-height: 1.5;
     color: black;
     background: white;
   }
-  
+
   .hero {
     min-height: auto;
     padding: 20pt 0;
     background: white;
     color: black;
   }
-  
+
   .hero__title {
     color: black;
   }
-  
+
   .section {
     padding: 20pt 0;
     page-break-inside: avoid;
   }
-  
+
   .card {
     box-shadow: none;
     border: 1px solid #ccc;
     page-break-inside: avoid;
   }
-  
+
   a {
     text-decoration: underline;
   }
-  
+
   a[href^="http"]:after {
     content: " (" attr(href) ")";
     font-size: 10pt;
@@ -441,11 +445,11 @@
     --color-sand: #D0C4A0;
     --text-muted: #404040;
   }
-  
+
   .btn {
     border: 2px solid currentColor;
   }
-  
+
   .card {
     border: 2px solid var(--color-primary);
   }
@@ -460,7 +464,7 @@
    * The brand colors work best on light backgrounds
    * Uncomment below if dark mode is desired:
    */
-  
+
   /*
   :root {
     --bg-primary: #1A1A1A;
@@ -477,26 +481,27 @@
    TOUCH DEVICE OPTIMIZATIONS
    ============================================ */
 @media (hover: none) and (pointer: coarse) {
+
   /* Larger touch targets */
   .btn {
     min-height: 44px;
     min-width: 44px;
   }
-  
+
   .nav__link {
     padding: var(--space-3);
   }
-  
+
   .mobile-nav__link {
     padding: var(--space-4);
   }
-  
+
   /* Disable hover effects on touch */
   .card:hover {
     transform: none;
     box-shadow: var(--shadow-sm);
   }
-  
+
   .btn--primary:hover,
   .btn--secondary:hover {
     transform: none;
@@ -523,7 +528,7 @@
   .hide-mobile {
     display: block;
   }
-  
+
   .hide-desktop {
     display: none;
   }
@@ -545,11 +550,11 @@
   .md\:text-left {
     text-align: left;
   }
-  
+
   .md\:text-center {
     text-align: center;
   }
-  
+
   .md\:text-right {
     text-align: right;
   }
@@ -560,7 +565,7 @@
   .md\:flex-row {
     flex-direction: row;
   }
-  
+
   .md\:flex-row-reverse {
     flex-direction: row-reverse;
   }
@@ -568,38 +573,64 @@
 
 /* Grid responsive */
 @media screen and (min-width: 600px) {
-  .sm\:grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .md\:grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
-  .md\:grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
-  .md\:grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  .lg\:grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
-  .lg\:grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
-  .lg\:grid-cols-5 { grid-template-columns: repeat(5, 1fr); }
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .lg\:grid-cols-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
 
 /* Gap responsive */
 @media screen and (min-width: 768px) {
-  .md\:gap-6 { gap: var(--space-6); }
-  .md\:gap-8 { gap: var(--space-8); }
-  .md\:gap-10 { gap: var(--space-10); }
+  .md\:gap-6 {
+    gap: var(--space-6);
+  }
+
+  .md\:gap-8 {
+    gap: var(--space-8);
+  }
+
+  .md\:gap-10 {
+    gap: var(--space-10);
+  }
 }
 
 /* Padding responsive */
 @media screen and (min-width: 768px) {
-  .md\:py-16 { 
-    padding-top: var(--space-16); 
-    padding-bottom: var(--space-16); 
+  .md\:py-16 {
+    padding-top: var(--space-16);
+    padding-bottom: var(--space-16);
   }
-  
-  .md\:py-20 { 
-    padding-top: var(--space-20); 
-    padding-bottom: var(--space-20); 
+
+  .md\:py-20 {
+    padding-top: var(--space-20);
+    padding-bottom: var(--space-20);
   }
 }
 
@@ -614,7 +645,8 @@
   }
 
   .about-grid__image {
-    order: -1; /* Image appears first (above text) on mobile */
+    order: -1;
+    /* Image appears first (above text) on mobile */
   }
 
   .about-grid__content {

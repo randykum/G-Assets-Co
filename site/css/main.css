@@ -850,24 +850,7 @@ p:last-child {
   justify-content: center;
 }
 
-.hero__scroll {
-  position: absolute;
-  bottom: var(--space-8);
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--space-2);
-  color: var(--text-light);
-  opacity: 0.7;
-  animation: bounce 2s infinite;
-}
 
-.hero__scroll svg {
-  width: 24px;
-  height: 24px;
-}
 
 /* ============================================
    COMPONENTS - SECTION HEADERS
