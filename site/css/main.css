@@ -303,6 +303,14 @@ p:last-child {
   background-color: var(--bg-accent);
 }
 
+/* CTA section */
+.cta-section__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  justify-content: center;
+}
+
 /* Flex utilities */
 .flex {
   display: flex;
@@ -1205,10 +1213,12 @@ p:last-child {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: var(--radius-full);
   transition: all var(--transition-fast);
+  color: var(--color-accent);
 }
 
 .footer__social-link:hover {
   background-color: var(--color-accent);
+  color: white;
 }
 
 .footer__social-link svg {
@@ -1313,7 +1323,7 @@ p:last-child {
   width: 120px;
   height: 120px;
   border-radius: var(--radius-full);
-  background: var(--color-sand-light);
+  background: white;
   border: 2px solid var(--color-sand);
   margin-bottom: var(--space-6);
   overflow: hidden;

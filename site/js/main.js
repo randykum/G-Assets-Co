@@ -382,7 +382,7 @@
         
         const phone = button.getAttribute('data-whatsapp') || '237697654334';
         const assetName = button.getAttribute('data-asset-name');
-        const lang = localStorage.getItem('gassetco_lang') || 'en';
+        const lang = localStorage.getItem('gasset_lang') || 'en';
         
         let message;
         if (assetName) {
