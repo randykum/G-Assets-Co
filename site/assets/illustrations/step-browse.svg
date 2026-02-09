@@ -38,7 +38,7 @@
   <rect x="107" y="96" width="48" height="4" rx="2" fill="#1A3C34" opacity="0.2"/>
   <rect x="107" y="104" width="32" height="3" rx="1.5" fill="#1A3C34" opacity="0.1"/>
 
-  <!-- Card 2 (top-right) — SELECTED -->
+  <!-- Card 2 selected in top right -->
   <rect x="194" y="52" width="88" height="66" rx="4" fill="#FFFFFF" stroke="#C45C3B" stroke-width="2"/>
   <rect x="201" y="58" width="74" height="32" rx="3" fill="#C45C3B" opacity="0.08"/>
   <rect x="201" y="96" width="48" height="4" rx="2" fill="#1A3C34" opacity="0.2"/>
