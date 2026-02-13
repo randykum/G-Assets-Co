@@ -1,5 +1,5 @@
 /**
- * G'Asset Co. - Internationalization (i18n) System
+ * G'Asset - Internationalization (i18n) System
  * Handles bilingual content (English/French) with localStorage persistence
  */
 
@@ -147,7 +147,7 @@
       const key = pageTitle.getAttribute('data-i18n-page-title');
       const title = t(key);
       if (title) {
-        document.title = `${title} | G'Asset Co.`;
+        document.title = `${title} | G'Asset`;
       }
     }
 

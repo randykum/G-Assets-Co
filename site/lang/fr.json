@@ -18,14 +18,14 @@
     "badge": "Financement de Micro-Équipements au Cameroun",
     "title": "Construisez Votre Avenir, <span>Un Équipement à la Fois</span>",
     "slogan": "Nous ne vendons pas juste des équipements de production, nous vendons des solutions d'affaires.",
-    "text": "G'Asset Co. accompagne les entrepreneurs en herbe, les entreprises établies et les PME au Cameroun avec des solutions de location-vente abordables. Démarrez votre entreprise ou développez vos opérations dès aujourd'hui. Sans versement initial important.",
+    "text": "G'Asset accompagne les entrepreneurs en herbe, les entreprises établies et les PME au Cameroun avec des solutions de location-vente abordables. Démarrez votre entreprise ou développez vos opérations dès aujourd'hui. Sans versement initial important.",
     "cta": "Explorer les Équipements",
     "ctaSecondary": "Comment Ça Marche"
   },
   "about": {
     "subtitle": "À Propos",
     "title": "Réaliser les Rêves Grâce à un Financement Accessible",
-    "text1": "G'Asset Co. a été fondée avec une mission simple : rendre les équipements essentiels accessibles à tous au Cameroun, quel que soit leur point de départ financier.",
+    "text1": "G'Asset a été fondée avec une mission simple : rendre les équipements essentiels accessibles à tous au Cameroun, quel que soit leur point de départ financier.",
     "text2": "Nous croyons que posséder le bon équipement (qu'il s'agisse d'une machine à coudre pour démarrer une entreprise de couture ou d'un réfrigérateur pour votre famille) ne devrait pas être un rêve lointain. Notre modèle de location-vente élimine les barrières financières, vous permettant de payer en versements gérables tout en bénéficiant immédiatement de l'équipement.",
     "cta": "Lire Notre Histoire",
     "mission": {
@@ -164,9 +164,9 @@
   "testimonials": {
     "subtitle": "Histoires de Réussite",
     "title": "Écoutez Nos Clients Satisfaits",
-    "text": "Des vraies personnes, de vraies histoires. Découvrez comment G'Asset Co. a aidé des entrepreneurs et des familles à réaliser leurs rêves.",
+    "text": "Des vraies personnes, de vraies histoires. Découvrez comment G'Asset a aidé des entrepreneurs et des familles à réaliser leurs rêves.",
     "testimonial1": {
-      "quote": "Grâce à G'Asset Co., j'ai démarré mon entreprise de couture avec juste un petit paiement hebdomadaire. Maintenant j'ai ma propre boutique et j'emploie deux apprentis!",
+      "quote": "Grâce à G'Asset, j'ai démarré mon entreprise de couture avec juste un petit paiement hebdomadaire. Maintenant j'ai ma propre boutique et j'emploie deux apprentis!",
       "name": "Marie Njoya",
       "role": "Couturière, Douala"
     },
@@ -198,7 +198,7 @@
       "email": "Adresse Email",
       "emailPlaceholder": "votre.email@exemple.com",
       "phone": "Numéro de Téléphone",
-      "phonePlaceholder": "+237 6 97 65 43 34",
+      "phonePlaceholder": "+237 6 54 17 89 94",
       "subject": "Sujet",
       "subjectPlaceholder": "Comment pouvons-nous vous aider?",
       "message": "Votre Message",
@@ -212,7 +212,7 @@
       "title": "Informations de Contact",
       "address": "Douala, Cameroun",
       "addressDetail": "Akwa, Près de la Station Total",
-      "phone": "+237 6 97 65 43 34",
+      "phone": "+237 6 54 17 89 94",
       "email": "info@gassetco.com",
       "hours": "Lundi - Samedi: 8h00 - 18h00"
     },
@@ -227,7 +227,7 @@
     "quickLinks": "Liens Rapides",
     "contact": "Contactez-Nous",
     "followUs": "Suivez-Nous",
-    "copyright": "© 2026 G'Asset Co. Tous droits réservés.",
+    "copyright": "© 2026 G'Asset Tous droits réservés.",
     "privacy": "Politique de Confidentialité",
     "terms": "Conditions d'Utilisation"
   },

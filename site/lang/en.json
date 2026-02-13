@@ -18,14 +18,14 @@
     "badge": "Micro-Asset Financing in Cameroon",
     "title": "Own Your Future, <span>One Asset at a Time</span>",
     "slogan": "We do not just sell production equipment, we sell business solutions.",
-    "text": "G'Asset Co. empowers aspiring entrepreneurs, established businesses, and SMEs in Cameroon with affordable hire-purchase solutions. Start your business or grow your operations today. No large upfront payment required.",
+    "text": "G'Asset empowers aspiring entrepreneurs, established businesses, and SMEs in Cameroon with affordable hire-purchase solutions. Start your business or grow your operations today. No large upfront payment required.",
     "cta": "Explore Assets",
     "ctaSecondary": "Learn How It Works"
   },
   "about": {
     "subtitle": "About Us",
     "title": "Empowering Dreams Through Accessible Financing",
-    "text1": "G'Asset Co. was founded with a simple mission: to make essential assets accessible to everyone in Cameroon, regardless of their financial starting point.",
+    "text1": "G'Asset was founded with a simple mission: to make essential assets accessible to everyone in Cameroon, regardless of their financial starting point.",
     "text2": "We believe that owning the right equipment (whether it's a sewing machine to start a tailoring business or a refrigerator for your family) should not be a distant dream. Our hire-purchase model breaks down financial barriers, allowing you to pay in manageable installments while immediately benefiting from the asset.",
     "cta": "Read Our Full Story",
     "mission": {
@@ -164,9 +164,9 @@
   "testimonials": {
     "subtitle": "Success Stories",
     "title": "Hear From Our Happy Customers",
-    "text": "Real people, real stories. See how G'Asset Co. has helped entrepreneurs and families achieve their dreams.",
+    "text": "Real people, real stories. See how G'Asset has helped entrepreneurs and families achieve their dreams.",
     "testimonial1": {
-      "quote": "Thanks to G'Asset Co., I started my tailoring business with just a small weekly payment. Now I have my own shop and employ two apprentices!",
+      "quote": "Thanks to G'Asset, I started my tailoring business with just a small weekly payment. Now I have my own shop and employ two apprentices!",
       "name": "Marie Njoya",
       "role": "Tailor, Douala"
     },
@@ -198,7 +198,7 @@
       "email": "Email Address",
       "emailPlaceholder": "your.email@example.com",
       "phone": "Phone Number",
-      "phonePlaceholder": "+237 6 97 65 43 34",
+      "phonePlaceholder": "+237 6 54 17 89 94",
       "subject": "Subject",
       "subjectPlaceholder": "What can we help you with?",
       "message": "Your Message",
@@ -212,7 +212,7 @@
       "title": "Contact Information",
       "address": "Douala, Cameroon",
       "addressDetail": "Akwa, Near Total Gas Station",
-      "phone": "+237 6 97 65 43 34",
+      "phone": "+237 6 54 17 89 94",
       "email": "info@gassetco.com",
       "hours": "Monday - Saturday: 8:00 AM - 6:00 PM"
     },
@@ -227,7 +227,7 @@
     "quickLinks": "Quick Links",
     "contact": "Contact Us",
     "followUs": "Follow Us",
-    "copyright": "© 2026 G'Asset Co. All rights reserved.",
+    "copyright": "© 2026 G'Asset All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"
   },

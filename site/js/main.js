@@ -1,5 +1,5 @@
 /**
- * G'Asset Co. - Main JavaScript
+ * G'Asset - Main JavaScript
  * Handles core functionality: navigation, smooth scroll, form handling
  */
 
@@ -380,7 +380,7 @@
       button.addEventListener('click', (e) => {
         e.preventDefault();
         
-        const phone = button.getAttribute('data-whatsapp') || '237697654334';
+        const phone = button.getAttribute('data-whatsapp') || '237654178994';
         const assetName = button.getAttribute('data-asset-name');
         const lang = localStorage.getItem('gasset_lang') || 'en';
         
@@ -396,8 +396,8 @@
           // General message
           message = button.getAttribute('data-whatsapp-message') || 
             (lang === 'fr' ? 
-              `Bonjour! Je suis intéressé(e) par les services de location-vente de G'Asset Co.` :
-              `Hello! I'm interested in G'Asset Co.'s hire-purchase services.`
+              `Bonjour! Je suis intéressé(e) par les services de location-vente de G'Asset` :
+              `Hello! I'm interested in G'Asset's hire-purchase services.`
             );
         }
         

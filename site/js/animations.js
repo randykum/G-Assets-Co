@@ -1,5 +1,5 @@
 /**
- * G'Asset Co. - Animations JavaScript
+ * G'Asset - Animations JavaScript
  * Scroll-based animations using Intersection Observer
  */
 
