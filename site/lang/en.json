@@ -17,7 +17,7 @@
   "hero": {
     "badge": "Micro-Asset Financing in Cameroon",
     "title": "Own Your Future, <span>One Asset at a Time</span>",
-    "slogan": "We do not just sell production equipment, we sell business solutions.",
+    "slogan": "Financing Productivity. Enabling Enterprise.",
     "text": "G'Asset empowers aspiring entrepreneurs, established businesses, and SMEs in Cameroon with affordable hire-purchase solutions. Start your business or grow your operations today. No large upfront payment required.",
     "cta": "Explore Assets",
     "ctaSecondary": "Learn How It Works"
@@ -251,6 +251,8 @@
     "scrollDown": "Scroll down for more"
   },
   "supplier": {
+    "subtitle": "Our Partners",
+    "title": "Trusted Equipment Suppliers",
     "poweredBy": "Equipment powered by",
     "verified": "Verified Partner",
     "description": "AmpleBerrys is our trusted partner for high-quality commercial and industrial equipment, ensuring reliability and performance for your business."

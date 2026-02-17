@@ -17,7 +17,7 @@
   "hero": {
     "badge": "Financement de Micro-Équipements au Cameroun",
     "title": "Construisez Votre Avenir, <span>Un Équipement à la Fois</span>",
-    "slogan": "Nous ne vendons pas juste des équipements de production, nous vendons des solutions d'affaires.",
+    "slogan": "Financer la Productivité. Permettre l'Entreprise.",
     "text": "G'Asset accompagne les entrepreneurs en herbe, les entreprises établies et les PME au Cameroun avec des solutions de location-vente abordables. Démarrez votre entreprise ou développez vos opérations dès aujourd'hui. Sans versement initial important.",
     "cta": "Explorer les Équipements",
     "ctaSecondary": "Comment Ça Marche"
@@ -251,6 +251,8 @@
     "scrollDown": "Défiler vers le bas pour plus"
   },
   "supplier": {
+    "subtitle": "Nos Partenaires",
+    "title": "Fournisseurs d'Équipements de Confiance",
     "poweredBy": "Équipements fournis par",
     "verified": "Partenaire Vérifié",
     "description": "AmpleBerrys est notre partenaire de confiance pour des équipements commerciaux et industriels de haute qualité, garantissant fiabilité et performance pour votre entreprise."

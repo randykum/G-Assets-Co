@@ -674,3 +674,37 @@
 .page-hero--about .page-hero__background {
   background-image: url('../assets/images/about-hero-bg.jpg');
 }
+
+/* ============================================
+   PARTNERS GRID RESPONSIVE
+   ============================================ */
+/* Tablet: 3 columns */
+@media screen and (min-width: 600px) {
+  .partners-section__grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+  }
+}
+
+/* Desktop: 6 columns in 2 rows of 3 */
+@media screen and (min-width: 768px) {
+  .partners-section__grid {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1000px;
+  }
+
+  .partners-section {
+    padding: var(--space-16) 0;
+  }
+}
+
+/* Large desktop: 6 columns */
+@media screen and (min-width: 1024px) {
+  .partners-section__grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .partners-section__card {
+    padding: var(--space-8);
+  }
+}

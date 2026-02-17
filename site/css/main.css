@@ -1379,3 +1379,69 @@ p:last-child {
   border-radius: var(--radius-full);
   margin: var(--space-6) auto 0;
 }
+
+/* ============================================
+   PARTNERS GRID SECTION (New Multi-Supplier)
+   ============================================ */
+.partners-section {
+  padding: var(--space-12) 0;
+  background: var(--color-cream);
+}
+
+.partners-section--dark {
+  background: var(--color-primary);
+  color: var(--color-cream);
+}
+
+.partners-section__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.partners-section__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+  box-shadow: var(--shadow-sm);
+}
+
+.partners-section--dark .partners-section__card {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.partners-section__card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.partners-section__card img {
+  max-width: 100%;
+  max-height: 60px;
+  object-fit: contain;
+  filter: grayscale(20%);
+  transition: filter var(--transition-base);
+}
+
+.partners-section__card:hover img {
+  filter: grayscale(0%);
+}
+
+.partners-section__label {
+  text-align: center;
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: var(--space-6);
+}
+
+.partners-section--dark .partners-section__label {
+  color: rgba(255, 255, 255, 0.6);
+}
